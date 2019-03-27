@@ -21,17 +21,27 @@ public class MatchMotifGenerator {
 		LinkedList<char[]> senderList = new LinkedList<char[]>();
 		int[] index_arr = new int[length];
 		int max = MOTIF_ARR.length - 1;
-		int currentPointerIndex = length;
+		int currentPointerIndex = length - 1;
+		int iterations = 0;
 		
-		while (sumOfElements(index_arr) < (max * MOTIF_ARR.length)) {
+		do {
 			// Char generation
-			char[] tmp = convertIndexToChar(MOTIF_ARR, index_arr);
-			senderList.add(tmp);
+			senderList.add(convertIndexToChar(MOTIF_ARR, index_arr));
 			
 			// Index incrementing
-			
-		}
-		
+			if (index_arr[currentPointerIndex] >= max) {
+				index_arr[currentPointerIndex] = 0;
+				currentPointerIndex --;
+				if (index_arr[currentPointerIndex] < max) {
+					index_arr[currentPointerIndex] ++;
+					currentPointerIndex = length - 1;
+				}
+			} else {
+				index_arr[currentPointerIndex] ++;
+			}
+			iterations ++;
+		} while (sumOfElements(index_arr) < (max * length));
+		CP.println("Finished Motif Generation: " + iterations + " iterations.");
 		return senderList.toArray(new char[senderList.size()][length]);
 	}
 	
