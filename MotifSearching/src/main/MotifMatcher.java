@@ -52,14 +52,47 @@ public class MotifMatcher {
 		
 		// pointer moves along input to check each element
 		int pointerIndex = 0;
+		int keyLength = keys[0].length;
 		LinkedList<MotifStruct> senderList = new LinkedList<MotifStruct>();
 		
 		while (pointerIndex < input.length) {
-			
+			char[] motif = createSubArray(input, pointerIndex, pointerIndex + keyLength);
+			int[] indexAndScore = getHighestIndex(motif, keys);
+			senderList.add(new MotifStruct(motif, keys[indexAndScore[0]], indexAndScore[1], pointerIndex));
+			if (!checkAll)
+				if (indexAndScore[1] == keyLength) {
+					break;
+				}
 			pointerIndex ++;
 		}
 		
 		return senderList.toArray(new MotifStruct[senderList.size()]);
+	}
+	
+	/**<strong>getHighestIndex()</strong>
+	 * <p>Will return the index of the highest key matched to the input.</p>
+	 * @param input single key length check.
+	 * @param keys all keys to check input against.
+	 * @return null is returned if the key length doesn't match the input length.
+	 */
+	public static int[] getHighestIndex(char[] input, char[][] keys) {
+		// check for length
+		if (input.length != keys[0].length)
+			return null;
+		
+		int index = 0;
+		int highestScore = 0;
+		for (int i = 0; i < keys.length; i++) {
+			int score = getScore(input, keys[i]);
+			if (score == keys[i].length) {
+				return new int[] {i, score};
+			}
+			if (score > highestScore) {
+				index = i;
+				highestScore = score;
+			}
+		}
+		return new int[] {index, highestScore};
 	}
 	
 	private static char[] createSubArray(char[] array, int startingIndex, int endingIndex) {
