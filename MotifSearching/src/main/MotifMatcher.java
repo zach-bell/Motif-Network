@@ -1,5 +1,7 @@
 package main;
 
+import java.util.LinkedList;
+
 public class MotifMatcher {
 	/**<strong>getScore()</strong>
 	 * <p>Returns a number from 0 to the length of the key to obtain a score on matching elements.</p>
@@ -34,5 +36,44 @@ public class MotifMatcher {
 			scores[i] = getScore(input, keys[i]);
 		}
 		return scores;
+	}
+	
+	/**<strong>scoreStreamInput()</strong>
+	 * <p>Will run checks on every element of the input array until a perfect match is found OR the end of the list is reached.</p>
+	 * @param input long stream of chars to check against key.
+	 * @param keys list of char arrays to check against input.
+	 * @param checkAll will check all elements in the input.
+	 * @return null if input is not longer than the first key.
+	 */
+	public static MotifStruct[] scoreStreamInput(char[] input, char[][] keys, boolean checkAll) {
+		// Check if length is greater than
+		if (input.length < keys[0].length)
+			return null;
+		
+		// pointer moves along input to check each element
+		int pointerIndex = 0;
+		LinkedList<MotifStruct> senderList = new LinkedList<MotifStruct>();
+		
+		while (pointerIndex < input.length) {
+			
+			pointerIndex ++;
+		}
+		
+		return senderList.toArray(new MotifStruct[senderList.size()]);
+	}
+	
+	private static char[] createSubArray(char[] array, int startingIndex, int endingIndex) {
+		// Check if people can read
+		if (startingIndex > endingIndex)
+			return null;
+		
+		// Will probably refactor to not have a loop later.
+		int index = 0;
+		char[] sender = new char[endingIndex - startingIndex];
+		for (int i = startingIndex; i < endingIndex; i++) {
+			sender[index] = array[i];
+			index ++;
+		}
+		return sender;
 	}
 }
