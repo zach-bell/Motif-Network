@@ -1,18 +1,26 @@
 package main;
 
+import java.util.LinkedList;
+
+import main.core.MotifFileHandler;
+import main.core.MotifStruct;
 import tools.CP;
+import tools.Timer;
 
 public class MotifLauncher {
 
 	public static void main(String[] args) {
-		char[][] motifKeys = MatchMotifGenerator.getMotifs(3);
-		MotifStruct[] motifs = MotifMatcher.scoreStreamInput(
-				new char[] {'a','c','a','t','g','a','c','c','t'}, motifKeys, true);
-		CP.println("Motif\tMotifMatch\tScore\tIndex\n--------------------------------------");
-		for (MotifStruct ms : motifs) {
-			CP.println(String.copyValueOf(ms.getMotif()) + "\t" +
-					String.copyValueOf(ms.getMatchMotif()) + "\t" + ms.getScore() + "\t" + ms.getIndex());
-		}
+		Timer timer = new Timer();
+		timer.startTimingM();
 		
+		MotifFileHandler mfh = new MotifFileHandler();
+		
+		LinkedList<MotifStruct[]> structList = new LinkedList<MotifStruct[]>();
+		char[][] motifKeys = MatchMotifGenerator.getMotifs(8);
+		char[][] input = mfh.getLineInFile("F:/User/Downloads/promoters_data_clean.txt");
+		for (int i = 0; i < input.length; i++) {
+			structList.add(MotifMatcher.scoreStreamInput(input[i], motifKeys, true));
+		}
+		CP.println("\nFinished scoring.\nTime taken: " + timer.stopTimeM() + "ms.");
 	}
 }

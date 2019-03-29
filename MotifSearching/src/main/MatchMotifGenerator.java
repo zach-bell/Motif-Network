@@ -3,6 +3,7 @@ package main;
 import java.util.LinkedList;
 
 import tools.CP;
+import tools.Timer;
 
 public class MatchMotifGenerator {
 	
@@ -10,7 +11,7 @@ public class MatchMotifGenerator {
 	 * <p>The array list of letter combinations for the assignment.</p>
 	 */
 	public static final char[] MOTIF_ARR = {'a','c','g','t'};
-	
+	private static Timer timer = new Timer();
 	/**<strong>getMotifs()</strong>
 	 * <p>This will return an array of arrays of all possible combinations
 	 * of all elements in MOTIF_ARR to the desired length.</p>
@@ -18,6 +19,7 @@ public class MatchMotifGenerator {
 	 * @return
 	 */
 	public static char[][] getMotifs(int length) {
+		timer.startTimingM();
 		LinkedList<char[]> senderList = new LinkedList<char[]>();
 		int[] index_arr = new int[length];
 		int max = MOTIF_ARR.length - 1;
@@ -41,7 +43,8 @@ public class MatchMotifGenerator {
 			}
 			iterations ++;
 		} while (sumOfElements(index_arr) < (max * length));
-		CP.println("Finished Motif Generation: " + iterations + " iterations.");
+		CP.println("Finished Motif Generation: " + iterations + " iterations.\n" + 
+					"Time taken: " + timer.stopTimeM() + "ms.");
 		return senderList.toArray(new char[senderList.size()][length]);
 	}
 	

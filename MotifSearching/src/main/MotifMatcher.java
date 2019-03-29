@@ -2,7 +2,14 @@ package main;
 
 import java.util.LinkedList;
 
+import main.core.MotifStruct;
+import tools.CP;
+import tools.Timer;
+
 public class MotifMatcher {
+	// Used to test system time doing a single job.
+	private static Timer timer = new Timer();
+	
 	/**<strong>getScore()</strong>
 	 * <p>Returns a number from 0 to the length of the key to obtain a score on matching elements.</p>
 	 * @param input char array to be checked against the key.
@@ -50,13 +57,20 @@ public class MotifMatcher {
 		if (input.length < keys[0].length)
 			return null;
 		
+		timer.startTimingM();
 		// pointer moves along input to check each element
 		int pointerIndex = 0;
 		int keyLength = keys[0].length;
 		LinkedList<MotifStruct> senderList = new LinkedList<MotifStruct>();
 		
 		while (pointerIndex < input.length) {
+			// This means we hit the end of the input. Any further would put an array index out of bounds.
+			if (pointerIndex + keyLength > input.length)
+				break;
+			
+			// We create our motif
 			char[] motif = createSubArray(input, pointerIndex, pointerIndex + keyLength);
+			// We get our index([0]) and score([1]). 
 			int[] indexAndScore = getHighestIndex(motif, keys);
 			senderList.add(new MotifStruct(motif, keys[indexAndScore[0]], indexAndScore[1], pointerIndex));
 			if (!checkAll)
@@ -65,12 +79,12 @@ public class MotifMatcher {
 				}
 			pointerIndex ++;
 		}
-		
+		CP.println("Finished scoring elements in input stream.\nTime taken: " + timer.stopTimeM() + "ms.\n");
 		return senderList.toArray(new MotifStruct[senderList.size()]);
 	}
 	
 	/**<strong>getHighestIndex()</strong>
-	 * <p>Will return the index of the highest key matched to the input.</p>
+	 * <p>Will return the index of the highest key matched to the input, and the score it found.</p>
 	 * @param input single key length check.
 	 * @param keys all keys to check input against.
 	 * @return null is returned if the key length doesn't match the input length.
@@ -103,9 +117,13 @@ public class MotifMatcher {
 		// Will probably refactor to not have a loop later.
 		int index = 0;
 		char[] sender = new char[endingIndex - startingIndex];
-		for (int i = startingIndex; i < endingIndex; i++) {
-			sender[index] = array[i];
-			index ++;
+		try {
+			for (int i = startingIndex; i < endingIndex; i++) {
+				sender[index] = array[i];
+				index ++;
+			}
+		} catch (ArrayIndexOutOfBoundsException e) {
+			CP.println("createSubArray(): " + e.getMessage());
 		}
 		return sender;
 	}

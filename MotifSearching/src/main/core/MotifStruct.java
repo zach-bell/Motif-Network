@@ -1,4 +1,4 @@
-package main;
+package main.core;
 
 public class MotifStruct {
 	
@@ -29,6 +29,4 @@ public class MotifStruct {
 	public int getIndex() {
 		return index;
 	}
-	
-	
 }
