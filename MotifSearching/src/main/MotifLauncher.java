@@ -22,9 +22,11 @@ public class MotifLauncher {
 			for (int i = 0; i < input.length; i++) {
 				structList.add(MotifMatcher.scoreStreamInput(input[i], motifKeys, true));
 			}
-			
 		} catch (NullPointerException e) {
 			CP.println("Yea, couldn't run the rest of the program.");
+		}
+		if (mfh.toFile(structList, "OUTPUT.txt")) {
+			CP.println("Printed to file.");
 		}
 		CP.println("\nFinished scoring.\nTime taken: " + timer.stopTimeM() + "ms.");
 	}

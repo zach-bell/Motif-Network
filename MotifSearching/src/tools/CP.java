@@ -1,8 +1,9 @@
 package tools;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
+import java.io.FileWriter;
 
 /** <strong>Clean Printer</strong>
  * <p>Clean printer is a class to easily access the print function of System, 
@@ -12,7 +13,7 @@ import java.io.PrintWriter;
  */
 public class CP {
 	
-	private static PrintWriter out = null;
+	private static BufferedWriter writer = null;
 	private static File file = null;
 	
 	/**<strong>println()</strong>
@@ -40,11 +41,14 @@ public class CP {
 	public static boolean printToFile(String str, String location) {
 		try {
 			file = new File(location);
-			if (file.createNewFile()) {
-				println("Created file that wasn't there.");
-			}
-			out = new PrintWriter(location);
-			out.println(str);
+			if (!file.exists())
+				if (file.createNewFile()) {
+					println("Created file that wasn't there.");
+				}
+			writer = new BufferedWriter(new FileWriter(location, true));
+		    writer.append(str);
+		    writer.newLine();
+		    writer.close();
 		} catch (FileNotFoundException n) {
 			println("Ok, somehow the file was not created. Talk to your system administrator even though "+
 					"it's not their fault.");
