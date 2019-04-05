@@ -1,14 +1,10 @@
 package main;
 
 import java.util.LinkedList;
-
 import main.core.MotifStruct;
 import tools.CP;
-import tools.Timer;
 
 public class MotifMatcher {
-	// Used to test system time doing a single job.
-	private static Timer timer = new Timer();
 	
 	/**<strong>getScore()</strong>
 	 * <p>Returns a number from 0 to the length of the key to obtain a score on matching elements.</p>
@@ -16,7 +12,7 @@ public class MotifMatcher {
 	 * @param key char array to check against the input.
 	 * @return -1 is returned if the lengths do not match.
 	 */
-	public static int getScore(char[] input, char[] key) {
+	public int getScore(char[] input, char[] key) {
 		// Initial check as to not waste time
 		if (input.length != key.length)
 			return -1;
@@ -36,7 +32,7 @@ public class MotifMatcher {
 	 * @param key char array of char arrays to check against the input.
 	 * @return -1 is returned for elements where the lengths of the arrays in key do not match.
 	 */
-	public static int[] getScores(char[] input, char[][] keys) {
+	public int[] getScores(char[] input, char[][] keys) {
 		int[] scores = new int[keys.length];
 		// Check elements in the arrays
 		for (int i = 0; i < keys.length; i++) {
@@ -52,12 +48,11 @@ public class MotifMatcher {
 	 * @param checkAll will check all elements in the input.
 	 * @return null if input is not longer than the first key.
 	 */
-	public static MotifStruct[] scoreStreamInput(char[] input, char[][] keys, boolean checkAll) {
+	public MotifStruct[] scoreStreamInput(char[] input, char[][] keys, boolean checkAll) {
 		// Check if length is greater than
 		if (input.length < keys[0].length)
 			return null;
 		
-		timer.startTimingM();
 		// pointer moves along input to check each element
 		int pointerIndex = 0;
 		int keyLength = keys[0].length;
@@ -79,7 +74,6 @@ public class MotifMatcher {
 				}
 			pointerIndex ++;
 		}
-		CP.println("Finished scoring elements in input stream.\nTime taken: " + timer.stopTimeM() + "ms.\n");
 		return senderList.toArray(new MotifStruct[senderList.size()]);
 	}
 	
@@ -89,7 +83,7 @@ public class MotifMatcher {
 	 * @param keys all keys to check input against.
 	 * @return null is returned if the key length doesn't match the input length.
 	 */
-	public static int[] getHighestIndex(char[] input, char[][] keys) {
+	public int[] getHighestIndex(char[] input, char[][] keys) {
 		// check for length
 		if (input.length != keys[0].length)
 			return null;

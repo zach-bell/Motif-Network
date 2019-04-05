@@ -1,33 +1,49 @@
 package main;
 
-import java.util.LinkedList;
-
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import main.core.MotifFileHandler;
-import main.core.MotifStruct;
+import main.core.MotifThreadHandler;
 import tools.CP;
 import tools.Timer;
 
 public class MotifLauncher {
+	
+	// The length of the motif string to create and check.
+	public static final int MOTIF_LENGTH = 8;
+	// File to check.
+	public static final String FILE_IN = "promoters_data_clean.txt";
 
 	public static void main(String[] args) {
 		Timer timer = new Timer();
+		Timer timerSmall = new Timer();
 		timer.startTimingM();
 		
 		MotifFileHandler mfh = new MotifFileHandler();
 		
-		LinkedList<MotifStruct[]> structList = new LinkedList<MotifStruct[]>();
-		char[][] motifKeys = MatchMotifGenerator.getMotifs(8);
-		char[][] input = mfh.getLineInFile("promoters_data_clean.txt");
-		try {
-			for (int i = 0; i < input.length; i++) {
-				structList.add(MotifMatcher.scoreStreamInput(input[i], motifKeys, true));
-			}
-		} catch (NullPointerException e) {
-			CP.println("Yea, couldn't run the rest of the program.");
+		timerSmall.startTimingM();	// Start timer
+		CP.println("Generating Motifs to test.");
+		char[][] motifKeys = MatchMotifGenerator.getMotifs(MOTIF_LENGTH);
+		CP.println("Motif Generation time taken: " + timerSmall.stopTimeM() + "ms.");
+		
+		char[][] input = mfh.getLineInFile(FILE_IN);
+		timerSmall.startTimingM();	// Start timer
+		CP.println("\nMatching motifs...");
+		
+		MotifThreadHandler motifThreadHandler = new MotifThreadHandler(input, motifKeys);
+		motifThreadHandler.startThreads();
+		
+		CP.println("Finished matching motifs with: " + timerSmall.stopTimeM() + "ms taken.\n");
+		
+		DateFormat dateFormat = new SimpleDateFormat("MM-dd-yyyy--HH-mm-ss");
+		Date date = new Date();
+		timerSmall.startTimingM();// Start timer
+		if (mfh.toFile(motifThreadHandler.consolidateLists(), "OUTPUT--" + dateFormat.format(date) + ".txt")) {
+			CP.print("Printed to file. ");
 		}
-		if (mfh.toFile(structList, "OUTPUT.txt")) {
-			CP.println("Printed to file.");
-		}
-		CP.println("\nFinished scoring.\nTime taken: " + timer.stopTimeM() + "ms.");
+		CP.println("Time taken: " + timerSmall.stopTimeM() + "ms.");
+		
+		CP.println("\nFinished everything.\nTotal time taken: " + timer.stopTimeM() + "ms.");
 	}
 }
