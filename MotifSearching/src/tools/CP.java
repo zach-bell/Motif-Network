@@ -4,6 +4,9 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /** <strong>Clean Printer</strong>
  * <p>Clean printer is a class to easily access the print function of System, 
@@ -16,11 +19,31 @@ public class CP {
 	private static BufferedWriter writer = null;
 	private static File file = null;
 	
+	public static DateFormat timeFormat = new SimpleDateFormat("HH-mm-ss");
+	public static Date date = new Date();
+	
 	/**<strong>println()</strong>
 	 * <p>Pretty self explanatory. Prints to console with a line after.</p>
 	 * @param str
 	 */
 	public static void println(String str) {
+		System.out.println(str);
+	}
+	
+	/**<strong>println()</strong>
+	 * <p>Will print just a new line to the console.</p>
+	 */
+	public static void println() {
+		System.out.println();
+	}
+	
+	/**<strong>println()</strong>
+	 * <p>Will print to console and to the file given the location.</p>
+	 * @param str to print.
+	 * @param location to file to append the string.
+	 */
+	public static void println(String str, String location) {
+		printToFile("[" + timeFormat.format(date) + "] " + str, location);
 		System.out.println(str);
 	}
 	
@@ -33,7 +56,7 @@ public class CP {
 	}
 	
 	/**<strong>printToFile()</strong>
-	 * <p>This method is used to print a nice log file to a file :D</p>
+	 * <p>This method is used to append directly to a file.</p>
 	 * @param str
 	 * @param location
 	 * @return

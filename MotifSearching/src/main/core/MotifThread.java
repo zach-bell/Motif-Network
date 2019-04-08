@@ -19,7 +19,7 @@ public class MotifThread extends Thread {
 	}
 	
 	public void run() {
-		structArray = matcher.scoreStreamInput(input, motifKeys, true);
+		structArray = matcher.scoreStreamInput(input, motifKeys, true, this.getName());
 		done = true;
 	}
 	

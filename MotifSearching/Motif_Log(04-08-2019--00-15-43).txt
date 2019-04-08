@@ -1,0 +1,146 @@
+[00-15-43] Generating Motifs to test.
+[00-15-43] Motif Generation time taken: 16ms.
+[00-15-43] 
+Matching motifs...
+[00-15-43] Created 106 threads.
+[00-15-43] 
+Starting threads and waiting for completion...
+Thread-0 activating.
+Thread-1 activating.
+Thread-2 activating.
+Thread-3 activating.
+[00-15-43] Finished index: 0
+Thread-4 activating.
+Thread-5 activating.
+Thread-6 activating.
+Thread-7 activating.
+[00-15-43] Finished index: 4
+Thread-8 activating.
+Thread-9 activating.
+Thread-10 activating.
+Thread-11 activating.
+[00-15-43] Finished index: 8
+Thread-12 activating.
+Thread-13 activating.
+Thread-14 activating.
+Thread-15 activating.
+[00-15-43] Finished index: 12
+Thread-16 activating.
+Thread-17 activating.
+Thread-18 activating.
+Thread-19 activating.
+[00-15-43] Finished index: 16
+Thread-20 activating.
+Thread-21 activating.
+Thread-22 activating.
+Thread-23 activating.
+[00-15-43] Finished index: 20
+Thread-24 activating.
+Thread-25 activating.
+Thread-26 activating.
+Thread-27 activating.
+[00-15-43] Finished index: 24
+Thread-28 activating.
+Thread-29 activating.
+Thread-30 activating.
+Thread-31 activating.
+[00-15-43] Finished index: 28
+Thread-32 activating.
+Thread-33 activating.
+Thread-34 activating.
+Thread-35 activating.
+[00-15-43] Finished index: 32
+Thread-36 activating.
+Thread-37 activating.
+Thread-38 activating.
+Thread-39 activating.
+[00-15-43] Finished index: 36
+Thread-40 activating.
+Thread-41 activating.
+Thread-42 activating.
+Thread-43 activating.
+[00-15-43] Finished index: 40
+Thread-44 activating.
+Thread-45 activating.
+Thread-46 activating.
+Thread-47 activating.
+[00-15-43] Finished index: 44
+Thread-48 activating.
+Thread-49 activating.
+Thread-50 activating.
+Thread-51 activating.
+[00-15-43] Finished index: 48
+Thread-52 activating.
+Thread-53 activating.
+Thread-54 activating.
+Thread-55 activating.
+[00-15-43] Finished index: 52
+Thread-56 activating.
+Thread-57 activating.
+Thread-58 activating.
+Thread-59 activating.
+[00-15-43] Finished index: 56
+Thread-60 activating.
+Thread-61 activating.
+Thread-62 activating.
+Thread-63 activating.
+[00-15-43] Finished index: 60
+Thread-64 activating.
+Thread-65 activating.
+Thread-66 activating.
+Thread-67 activating.
+[00-15-43] Finished index: 64
+Thread-68 activating.
+Thread-69 activating.
+Thread-70 activating.
+Thread-71 activating.
+[00-15-43] Finished index: 68
+Thread-72 activating.
+Thread-73 activating.
+Thread-74 activating.
+Thread-75 activating.
+[00-15-43] Finished index: 72
+Thread-76 activating.
+Thread-77 activating.
+Thread-78 activating.
+Thread-79 activating.
+[00-15-43] Finished index: 76
+Thread-80 activating.
+Thread-81 activating.
+Thread-82 activating.
+Thread-83 activating.
+[00-15-43] Finished index: 80
+Thread-84 activating.
+Thread-85 activating.
+Thread-86 activating.
+Thread-87 activating.
+[00-15-43] Finished index: 84
+Thread-88 activating.
+Thread-89 activating.
+Thread-90 activating.
+Thread-91 activating.
+[00-15-43] Finished index: 88
+Thread-92 activating.
+Thread-93 activating.
+Thread-94 activating.
+Thread-95 activating.
+[00-15-43] Finished index: 92
+Thread-96 activating.
+Thread-97 activating.
+Thread-98 activating.
+Thread-99 activating.
+[00-15-43] Finished index: 96
+Thread-100 activating.
+Thread-101 activating.
+Thread-102 activating.
+Thread-103 activating.
+[00-15-43] Finished index: 100
+Thread-104 activating.
+Thread-105 activating.
+[00-15-43] Finished index: 104
+[00-15-43] Finished matching motifs with: 1288ms taken.
+
+[00-15-43] Time taken: 15200ms.
+[00-15-43] 
+Finished everything.
+Total time taken: 16544ms.

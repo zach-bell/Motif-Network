@@ -39,7 +39,8 @@ public class MotifFileHandler {
 				// Print to file
 				CP.printToFile(String.copyValueOf(struct.getMotif()) + "\t" +
 					String.copyValueOf(struct.getMatchMotif()) + "\t" +
-						struct.getScore() + "\t" + struct.getIndex(), location);
+						struct.getScore() + "\t" + struct.getIndex() + 
+						"\t" + struct.getThreadName(), location);
 			}
 		}
 		return true;

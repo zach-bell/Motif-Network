@@ -48,7 +48,7 @@ public class MotifMatcher {
 	 * @param checkAll will check all elements in the input.
 	 * @return null if input is not longer than the first key.
 	 */
-	public MotifStruct[] scoreStreamInput(char[] input, char[][] keys, boolean checkAll) {
+	public MotifStruct[] scoreStreamInput(char[] input, char[][] keys, boolean checkAll, String threadName) {
 		// Check if length is greater than
 		if (input.length < keys[0].length)
 			return null;
@@ -67,7 +67,7 @@ public class MotifMatcher {
 			char[] motif = createSubArray(input, pointerIndex, pointerIndex + keyLength);
 			// We get our index([0]) and score([1]). 
 			int[] indexAndScore = getHighestIndex(motif, keys);
-			senderList.add(new MotifStruct(motif, keys[indexAndScore[0]], indexAndScore[1], pointerIndex));
+			senderList.add(new MotifStruct(motif, keys[indexAndScore[0]], indexAndScore[1], pointerIndex, threadName));
 			if (!checkAll)
 				if (indexAndScore[1] == keyLength) {
 					break;
@@ -117,7 +117,7 @@ public class MotifMatcher {
 				index ++;
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
-			CP.println("createSubArray(): " + e.getMessage());
+			CP.println("createSubArray(): " + e.getMessage(), MotifLauncher.logFileLocation);
 		}
 		return sender;
 	}
