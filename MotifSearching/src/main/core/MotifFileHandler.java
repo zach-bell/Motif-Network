@@ -31,17 +31,14 @@ public class MotifFileHandler {
 		return sender.toArray(new char[sender.size()][]);
 	}
 	
-	public boolean toFile(LinkedList<MotifStruct[]> list, String location) {
+	public boolean toFile(MotifStruct[] list, String location) {
 		CP.println("Printing to file... This will take awhile.");
-		for (int i = 0; i < list.size(); i++) {
-			CP.printToFile("New Struct matching: " + i + "\n", location);
-			for (MotifStruct struct : list.get(i)) {
-				// Print to file
-				CP.printToFile(String.copyValueOf(struct.getMotif()) + "\t" +
-					String.copyValueOf(struct.getMatchMotif()) + "\t" +
-						struct.getScore() + "\t" + struct.getIndex() + 
-						"\t" + struct.getThreadName(), location);
-			}
+		for (MotifStruct struct : list) {
+			// Print to file
+			CP.printToFile(String.copyValueOf(struct.getMotif()) + "\t" +
+				String.copyValueOf(struct.getMatchMotif()) + "\t" +
+					struct.getScore() + "\t" + struct.getIndex() + 
+					"\t" + struct.getThreadName(), location);
 		}
 		return true;
 	}

@@ -1,25 +1,25 @@
 package main.core;
 
-import java.util.LinkedList;
+import main.MotifCombiner;
 import main.MotifLauncher;
 import tools.CP;
 
 public class MotifThreadHandler {
 	
 	private char[][] input, motifKeys;
-	private LinkedList<MotifStruct[]> structLists;
 	private MotifThread[] threadList;
 	private MotifThread[] activeThreads;
 	
+	private MotifCombiner combiner;
 	private final int maxThreads = 4;
 	
 	public MotifThreadHandler(char[][] input, char[][] motifKeys) {
 		this.input = input.clone();
 		this.motifKeys = motifKeys;
 		
-		structLists = new LinkedList<MotifStruct[]>();
 		threadList = new MotifThread[input.length];
 		activeThreads = new MotifThread[maxThreads];
+		combiner = new MotifCombiner();
 		
 		createThreads();
 	}
@@ -64,6 +64,7 @@ public class MotifThreadHandler {
 		return true;
 	}
 	
+	// Will iterate through threads from that index, maxThreads at a time.
 	private void populateActiveThreads(int index) {
 		CP.println("Populating threads from: " + index);
 		for (int i = 0; i < maxThreads; i++) {
@@ -77,10 +78,23 @@ public class MotifThreadHandler {
 		}
 	}
 	
-	public LinkedList<MotifStruct[]> consolidateLists() {
+	/**<strong>consolidateLists()</strong>
+	 * <p>Will combine all threads lists into a combiner, and give the output.</p>
+	 * @return
+	 */
+	public MotifStruct[] consolidateLists() {
+		int size = 0;
 		for (MotifThread mt : threadList) {
-			structLists.add(mt.getCompiledList());
+			size += mt.getCompiledList().length;
 		}
-		return structLists;
+		MotifStruct[] sender = new MotifStruct[size];
+		int index = 0;
+		for (int i = 0; i < threadList.length; i++) {
+			for (int j = 0; j < threadList[i].getCompiledList().length; j++) {
+				sender[index] = threadList[i].getCompiledList()[j];
+				index ++;
+			}
+		}
+		return combiner.combineLikeMotifs(sender);
 	}
 }

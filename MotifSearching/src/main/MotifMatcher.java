@@ -26,6 +26,16 @@ public class MotifMatcher {
 		return score;
 	}
 	
+	/**<storng>worstSort()</strong>
+	 * <p>Will horribly sort the list of MotifStructs by the score it had gotten.</p>
+	 * @param list to sort;.
+	 * @return sorted list.
+	 */
+	public MotifStruct[] worstSort(MotifStruct[] list) {
+		
+		return null;
+	}
+	
 	/**<strong>getScores()</strong>
 	 * <p>Will take in a large array of keys and return a score for each of the keys.</p>
 	 * @param input char array to be checked against the key.
