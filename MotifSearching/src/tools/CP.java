@@ -8,6 +8,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import main.MotifLauncher;
+
 /** <strong>Clean Printer</strong>
  * <p>Clean printer is a class to easily access the print function of System, 
  * convert numbers from ugly long decimals to a limited amount, insert the 
@@ -43,8 +45,9 @@ public class CP {
 	 * @param location to file to append the string.
 	 */
 	public static void println(String str, String location) {
+		date = new Date();
 		printToFile("[" + timeFormat.format(date) + "] " + str, location);
-		System.out.println(str);
+		System.out.println("[" + timeFormat.format(date) + "] " + str);
 	}
 	
 	/**<strong>print()</strong>
@@ -57,16 +60,16 @@ public class CP {
 	
 	/**<strong>printToFile()</strong>
 	 * <p>This method is used to append directly to a file.</p>
-	 * @param str
-	 * @param location
-	 * @return
+	 * @param str to print to file.
+	 * @param location or destination to print to.
+	 * @return if it was successful in printing to file.
 	 */
 	public static boolean printToFile(String str, String location) {
 		try {
 			file = new File(location);
 			if (!file.exists())
 				if (file.createNewFile()) {
-					println("Created file that wasn't there.");
+					println("Created file that wasn't there.", MotifLauncher.logFileLocation);
 				}
 			writer = new BufferedWriter(new FileWriter(location, true));
 		    writer.append(str);
@@ -74,10 +77,45 @@ public class CP {
 		    writer.close();
 		} catch (FileNotFoundException n) {
 			println("Ok, somehow the file was not created. Talk to your system administrator even though "+
-					"it's not their fault.");
+					"it's not their fault.", MotifLauncher.logFileLocation);
 		}
 		catch (Exception e) {
-			println("Listen man, something happened, and it goes something like this:\n" + e.getMessage());
+			println("Listen man, something happened, and it goes something like this:\n" +
+					e.getMessage(), MotifLauncher.logFileLocation);
+			return false;
+		}
+		return true;
+	}
+	
+	/**<strong>printToFile()</strong>
+	 * <p>This method is used to append directly to a file.</p>
+	 * @param str to print to file.
+	 * @param location or destination to print to.
+	 * @param trackTime true to add [Time] infront of the string.
+	 * @return if it was successful in printing to file.
+	 */
+	public static boolean printToFile(String str, String location, boolean trackTime) {
+		try {
+			date = new Date();
+			file = new File(location);
+			if (!file.exists())
+				if (file.createNewFile()) {
+					println("Created file that wasn't there.");
+				}
+			
+			if (trackTime)
+				str = "[" + timeFormat.format(date) + "] " + str;
+			writer = new BufferedWriter(new FileWriter(location, true));
+		    writer.append(str);
+		    writer.newLine();
+		    writer.close();
+		} catch (FileNotFoundException n) {
+			println("Ok, somehow the file was not created. Talk to your system administrator even though "+
+					"it's not their fault.", MotifLauncher.logFileLocation);
+		}
+		catch (Exception e) {
+			println("Listen man, something happened, and it goes something like this:\n" +
+					e.getMessage(), MotifLauncher.logFileLocation);
 			return false;
 		}
 		return true;

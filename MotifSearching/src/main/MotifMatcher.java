@@ -75,7 +75,7 @@ public class MotifMatcher {
 			
 			// We create our motif
 			char[] motif = createSubArray(input, pointerIndex, pointerIndex + keyLength);
-			// We get our index([0]) and score([1]). 
+			// We get our index([0]) and score([1]). Again, so I don't need to make another struct object.
 			int[] indexAndScore = getHighestIndex(motif, keys);
 			senderList.add(new MotifStruct(motif, keys[indexAndScore[0]], indexAndScore[1], pointerIndex, threadName));
 			if (!checkAll)
@@ -110,7 +110,7 @@ public class MotifMatcher {
 				highestScore = score;
 			}
 		}
-		return new int[] {index, highestScore};
+		return new int[] {index, highestScore};	// This is so I don't need to make another struct object
 	}
 	
 	private static char[] createSubArray(char[] array, int startingIndex, int endingIndex) {
@@ -127,7 +127,7 @@ public class MotifMatcher {
 				index ++;
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
-			CP.println("createSubArray(): " + e.getMessage(), MotifLauncher.logFileLocation);
+			CP.println("MotifMatcher: createSubArray(): " + e.getMessage(), MotifLauncher.logFileLocation);
 		}
 		return sender;
 	}

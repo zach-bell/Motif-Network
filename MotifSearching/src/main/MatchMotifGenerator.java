@@ -39,7 +39,7 @@ public class MatchMotifGenerator {
 			}
 			iterations ++;	// This is just to check how many loops were made before completion.
 		} while (sumOfElements(index_arr) < (max * length));
-		CP.println("Finished Motif Generation: " + iterations + " iterations.");
+		CP.println("Finished Motif Generation: " + iterations + " iterations.\n");
 		return senderList.toArray(new char[senderList.size()][length]);
 	}
 	

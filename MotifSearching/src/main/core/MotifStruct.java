@@ -13,6 +13,7 @@ public class MotifStruct {
 		this.matchMotif = matchMotif;
 		this.score = score;
 		this.index = index;
+		this.threadName = threadName;
 	}
 
 	public char[] getMotif() {

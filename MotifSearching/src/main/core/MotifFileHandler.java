@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.LinkedList;
 
+import main.MotifLauncher;
 import tools.CP;
 
 public class MotifFileHandler {
@@ -22,17 +23,17 @@ public class MotifFileHandler {
 				line = fileReader.readLine();
 			}
 		} catch (FileNotFoundException e) {
-			CP.println("File not found exception.");
+			CP.println("File not found exception.", MotifLauncher.logFileLocation);
 			return null;
 		} catch (IOException e) {
-			CP.println("IO problems.");
+			CP.println("IO problems.", MotifLauncher.logFileLocation);
 			return null;
 		} // Try catch end
 		return sender.toArray(new char[sender.size()][]);
 	}
 	
 	public boolean toFile(MotifStruct[] list, String location) {
-		CP.println("Printing to file... This will take awhile.");
+		CP.println("Printing to file... This will take awhile.", MotifLauncher.logFileLocation);
 		for (MotifStruct struct : list) {
 			// Print to file
 			CP.printToFile(String.copyValueOf(struct.getMotif()) + "\t" +

@@ -24,8 +24,8 @@ public class MotifThread extends Thread {
 	}
 	
 	public void run() {
-		structArray = matcher.scoreStreamInput(input, motifKeys, true, this.getName());
-		CP.printToFile("Combining [" + this.getName() + "]", MotifLauncher.logFileLocation);
+		structArray = matcher.scoreStreamInput(input, motifKeys, true, getName());
+		CP.printToFile("Combining [" + getName() + "]", MotifLauncher.logFileLocation, true);
 		structArray = combiner.combineLikeMotifs(structArray);
 		done = true;
 	}

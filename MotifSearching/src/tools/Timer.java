@@ -1,9 +1,10 @@
 package tools;
 
 public class Timer {
-	long startTime = 0;
-	long stopTime = 0;
-	long timeTaken = 0;
+	private long startTime = 0;
+	private long stopTime = 0;
+	
+	public long timeTaken = 0;
 	
 	/**
 	 * <i><strong>Start Timing in Milliseconds</strong></i><br><br>
