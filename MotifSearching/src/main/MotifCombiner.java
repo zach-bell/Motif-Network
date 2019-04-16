@@ -18,14 +18,17 @@ public class MotifCombiner {
 		// Horribly iterate through every element like n^2
 		for (int i = 0; i < input.length; i ++) {
 			for (MotifStruct ms : input) {
-				if (checkMatching(ms, input[i])) {
-					MotifStruct temp = new MotifStruct(ms.getMotif(), ms.getMatchMotif(),
-										ms.getScore() + input[i].getScore(), input[i].getIndex(),
-										input[i].getThreadName());
-					input[i] = temp;
+				if (ms != null) {
+					if (checkMatching(ms, input[i])) {
+						MotifStruct temp = new MotifStruct(ms.getMotif(), ms.getMatchMotif(),
+											ms.getScore() + input[i].getScore(), input[i].getIndex(),
+											input[i].getThreadName());
+						input[i] = temp;
+					}
 				}
 			}
-			sender.add(input[i]);
+			sender.add(new MotifStruct(input[i]));
+			input[i] = null;				// This is to stop the repeat addition that happened from elements in the array.
 		}
 		return sender.toArray(new MotifStruct[sender.size()]);
 	}

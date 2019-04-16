@@ -46,7 +46,7 @@ public class MotifThreadHandler {
 	public MotifThreadHandler(char[][] input, char[][] motifKeys, int maxThreads) {
 		this.input = input.clone();	// Data will be moved around inside this meaning it is important to clone.
 		this.motifKeys = motifKeys;
-		this.maxThreads = maxThreads;
+		this.maxThreads = maxThreads >= 1 ? maxThreads : 4;	// Make sure the user puts in a positive number at least.
 		
 		// Initialize everything
 		threadList = new MotifThread[input.length];
@@ -70,7 +70,7 @@ public class MotifThreadHandler {
 	 */
 	public void runThreads() {
 		CP.println("Starting threads and waiting for completion...", MotifLauncher.logFileLocation);
-		
+		CP.println("Using " + maxThreads + " threads per-process.", MotifLauncher.logFileLocation);
 		int index = 0;
 		
 		// Iterates through the active thread list to activate all until it is done.

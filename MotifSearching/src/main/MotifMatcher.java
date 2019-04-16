@@ -1,6 +1,7 @@
 package main;
 
 import java.util.LinkedList;
+
 import main.core.MotifStruct;
 import tools.CP;
 
@@ -24,16 +25,6 @@ public class MotifMatcher {
 				score ++;
 		}
 		return score;
-	}
-	
-	/**<storng>worstSort()</strong>
-	 * <p>Will horribly sort the list of MotifStructs by the score it had gotten.</p>
-	 * @param list to sort;.
-	 * @return sorted list.
-	 */
-	public MotifStruct[] worstSort(MotifStruct[] list) {
-		
-		return null;
 	}
 	
 	/**<strong>getScores()</strong>
