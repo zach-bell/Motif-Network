@@ -3,8 +3,8 @@ package main;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Stack;
 
 import main.core.MotifFileHandler;
 import main.core.MotifStruct;
@@ -26,6 +26,8 @@ public class MotifLauncher {
 	
 	// Sets the number of threads to use for distributive workload.
 	public static int cores = 4;	// This means the program will use 5 threads! including the main thread!
+	
+	public static int timeSum = 0;	// Timer sum in ms
 	
 	// Used to create extended log files as to not clutter up the console during runtime.
 	public static String logFileLocation;
@@ -68,7 +70,6 @@ public class MotifLauncher {
 		CP.println("Creating log file: " + logFileLocation, logFileLocation);
 		
 		// Time how many milliseconds it takes to run each section.
-		int timeSum = 0;			// Total timer sum
 		Timer timerSmall = new Timer();		// Each section timer
 		
 		// --------------------------------
@@ -99,18 +100,29 @@ public class MotifLauncher {
 		// --------------------------------
 		// File output handling (current bottleneck)
 		// --------------------------------
+		
+		// Unsorted output
 		timerSmall.startTimingM();// Start timer
 		MotifStruct[] unsorted = motifThreadHandler.consolidateLists();		// Will give out an unsorted list.
+		if (mfh.toFile(unsorted, "unsorted-" + FILE_OUT)) {
+			CP.println("Printed to file: " + FILE_OUT + "\n", logFileLocation);
+		} else {
+			CP.println("File output printing process INCOMPLETE. Please run again.\n\n", logFileLocation);
+		}
+		CP.println("Time taken unsorted: " + timerSmall.stopTimeM() + "ms.\n", logFileLocation);
+		timeSum += timerSmall.timeTaken;
+		
+		// Sorted output
+		timerSmall.startTimingM();// Start timer
 		MotifStruct[] sorted = worstSort(unsorted);			// The sorting algorithm is broken at the moment.
-		CP.println("Sorting algorithm is broke atm. sorry.", logFileLocation);
-		if (mfh.toFile(unsorted, FILE_OUT)) {
+		if (mfh.toFile(sorted, "sorted-" + FILE_OUT)) {
 			CP.println("Printed to file: " + FILE_OUT + "\n", logFileLocation);
 		} else {
 			CP.println("File output printing process INCOMPLETE. Please run again.\n\n", logFileLocation);
 		}
 		
 		// Clean up with console prints
-		CP.println("Time taken: " + timerSmall.stopTimeM() + "ms.\n", logFileLocation);
+		CP.println("Time taken sorted: " + timerSmall.stopTimeM() + "ms.\n", logFileLocation);
 		timeSum += timerSmall.timeTaken;
 		CP.println("Finished everything.\nTotal time taken: " + ((timeSum / 1000) % 60) + " seconds.", logFileLocation);
 	}
@@ -121,7 +133,7 @@ public class MotifLauncher {
 	 * @return sorted list.
 	 */
 	public static MotifStruct[] worstSort(MotifStruct[] list) {
-		List<MotifStruct> sortedList = new Stack<MotifStruct>();
+		List<MotifStruct> sortedList = new LinkedList<MotifStruct>();
 		int index = 0;		// Creates the moving starting point of the next search.
 		int pointer = 0;	// Iterates through from the index position to the end.
 		

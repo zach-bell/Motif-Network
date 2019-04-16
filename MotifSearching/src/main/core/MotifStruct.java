@@ -7,6 +7,7 @@ public class MotifStruct {
 	private int score;
 	private int index;
 	private String threadName;
+	private int globalIndex;
 	
 	public MotifStruct(MotifStruct clone) {
 		this.motif = clone.motif.clone();
@@ -22,6 +23,14 @@ public class MotifStruct {
 		this.score = score;
 		this.index = index;
 		this.threadName = threadName;
+	}
+	
+	public int getGlobalIndex() {
+		return globalIndex;
+	}
+	
+	public void setGlobalIndex(int globalIndex) {
+		this.globalIndex = globalIndex;
 	}
 
 	public char[] getMotif() {

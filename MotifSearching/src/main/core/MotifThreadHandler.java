@@ -134,6 +134,7 @@ public class MotifThreadHandler {
 		for (int i = 0; i < threadList.length; i++) {
 			for (int j = 0; j < threadList[i].getCompiledList().length; j++) {
 				sender[index] = threadList[i].getCompiledList()[j];
+				sender[index].setGlobalIndex(index);
 				index ++;
 			}
 		}

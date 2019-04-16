@@ -52,14 +52,18 @@ public class MotifFileHandler {
 	 */
 	public boolean toFile(MotifStruct[] list, String location) {
 		CP.println("Printing to file... This will take awhile.", MotifLauncher.logFileLocation);
+		CP.printToFile("Motif Searching File Output\n", location);
+		CP.printToFile("Input Motif\tGenerated Motif\tScore\tGlobal Index\tThread\tThread Index", location);
 		for (MotifStruct struct : list) {
 			// Print to file
 			CP.printToFile(String.copyValueOf(struct.getMotif()) + "\t" +
 				String.copyValueOf(struct.getMatchMotif()) + "\t" +
-					struct.getScore() + "\t" + struct.getIndex() + 
-					"\t" + struct.getThreadName(), location);
+					struct.getScore() + "\t" + struct.getGlobalIndex() + "\t\t"
+					+ struct.getThreadName() + "\t" + struct.getIndex(), location);
 				
 		}
+		CP.printToFile("\n\nEnd of file. Total time: " +
+				((MotifLauncher.timeSum / 1000) % 60) + " seconds.", location);
 		return true;
 	}
 }
