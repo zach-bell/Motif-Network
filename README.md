@@ -27,3 +27,5 @@ and the number of processing threads to use as <strong>cores</strong> (it is sug
 <li><p>Make sure you find the launcher class <strong>MotifLauncher</strong> to run the project from.</p>
 	<img src="https://i.gyazo.com/679f5ec1ab132ec2c1113cf73ab7ccef.png"></img></li>
 </ol>
+<br>
+<p>That's all there really is to it. Give it a run and look through the code to see how it all works!</p>
