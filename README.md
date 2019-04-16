@@ -4,9 +4,9 @@ The program will take in a file destination as the <strong>input</strong>, the f
 and the number of processing threads to use as <strong>cores</strong> (it is suggested to have it at 4).</p>
 
 # Usage of runable jar
-<p>java -jar MotifSearching <strong>input</strong> <strong>output</strong> <strong>cores</strong><br><strong>cores</strong></p>
-<p><strong>Input</strong> and <strong>Output</strong> is needed, but <strong>cores</strong> is an optional input. If no value is found for 
-	<strong>cores</strong> it will default to 4.</p>
+<p>java -jar MotifSearching  <strong>&lt;input&gt;</strong>  <strong>&lt;output&gt;</strong>  <strong>&lt;cores&gt;</strong></p>
+<p><strong>&lt;Input&gt;</strong> and <strong>&lt;Output&gt;</strong> is needed, but <strong>&lt;cores&gt;</strong> is an optional input. If no value is found for 
+	<strong>&lt;cores&gt;</strong> it will default to 4.</p>
 
 # How to install into eclipse
 <ol>
