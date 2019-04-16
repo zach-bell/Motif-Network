@@ -21,7 +21,7 @@ and the number of processing threads to use as <strong>cores</strong> (it is sug
 <li><p>Browse for the main project folder and <strong>only select MotifSearching</strong> for the project.
 	Make sure you <strong>uncheck motif.mapreducer</strong> as that is not used. Not doing this will cause some file read conflicts unless 
 	you make some changes yourself in the <strong>MotifLauncher</strong> class.</p>
-	<img src="https://i.gyazo.com/dbc6dbdc5707411c981c4a8831eae494.png"></img><p>You should have a structure looking like this.</p>
+	<img src="https://i.gyazo.com/f1de7db60fa883ebb7ac5c27409914c3.png"></img><p>You should have a structure looking like this.</p>
 	<img src="https://i.gyazo.com/32968f2c1266cf1408f9c48747dea6ad.png"></img></li>
 
 <li><p>Make sure you find the launcher class <strong>MotifLauncher</strong> to run the project from.</p>
