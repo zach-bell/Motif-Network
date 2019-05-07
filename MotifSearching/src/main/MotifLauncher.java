@@ -92,7 +92,7 @@ public class MotifLauncher {
 		// --------------------------------
 		// Motif Matching and Thread Handling
 		// --------------------------------
-		MotifThreadHandler motifThreadHandler = new MotifThreadHandler(input, motifKeys);
+		MotifThreadHandler motifThreadHandler = new MotifThreadHandler(input, motifKeys, cores);
 		motifThreadHandler.runThreads();
 		CP.println("Finished matching motifs with: " + timerSmall.stopTimeM() + "ms taken.\n", logFileLocation);
 		timeSum += timerSmall.timeTaken;
