@@ -1,0 +1,1274 @@
+[03-58-46] Created file that wasn't there.
+[03-58-46] Creating log file: Motif_Log(05-07-2019--03-58-46).txt
+[03-58-46] Generating Motifs to test.
+[03-58-46] Motif Generation time taken: 19ms.
+[03-58-46] Matching motifs...
+[03-58-46] Created 500 threads.
+[03-58-46] Starting threads and waiting for completion...
+[03-58-46] Using 4 threads per-process.
+[03-58-46] Populating threads from: 0
+[03-58-46] Thread-0 activating.
+[03-58-46] Thread-1 activating.
+[03-58-46] Thread-2 activating.
+[03-58-46] Thread-3 activating.
+[03-58-46] Combining [Thread-0]
+[03-58-46] Combining [Thread-2]
+[03-58-46] Combining [Thread-1]
+[03-58-46] Combining [Thread-3]
+[03-58-46] Finished index: 0
+[03-58-46] Populating threads from: 4
+[03-58-46] Thread-4 activating.
+[03-58-46] Thread-5 activating.
+[03-58-46] Thread-6 activating.
+[03-58-46] Thread-7 activating.
+[03-58-47] Combining [Thread-4]
+[03-58-47] Combining [Thread-6]
+[03-58-47] Combining [Thread-7]
+[03-58-47] Combining [Thread-5]
+[03-58-47] Finished index: 4
+[03-58-47] Populating threads from: 8
+[03-58-47] Thread-8 activating.
+[03-58-47] Thread-9 activating.
+[03-58-47] Thread-10 activating.
+[03-58-47] Thread-11 activating.
+[03-58-47] Combining [Thread-8]
+[03-58-47] Combining [Thread-10]
+[03-58-47] Combining [Thread-9]
+[03-58-47] Combining [Thread-11]
+[03-58-47] Finished index: 8
+[03-58-47] Populating threads from: 12
+[03-58-47] Thread-12 activating.
+[03-58-47] Thread-13 activating.
+[03-58-47] Thread-14 activating.
+[03-58-47] Thread-15 activating.
+[03-58-47] Combining [Thread-13]
+[03-58-47] Combining [Thread-14]
+[03-58-47] Combining [Thread-12]
+[03-58-47] Combining [Thread-15]
+[03-58-47] Finished index: 12
+[03-58-47] Populating threads from: 16
+[03-58-47] Thread-16 activating.
+[03-58-47] Thread-17 activating.
+[03-58-47] Thread-18 activating.
+[03-58-47] Thread-19 activating.
+[03-58-48] Combining [Thread-17]
+[03-58-48] Combining [Thread-18]
+[03-58-48] Combining [Thread-19]
+[03-58-48] Combining [Thread-16]
+[03-58-48] Finished index: 16
+[03-58-48] Populating threads from: 20
+[03-58-48] Thread-20 activating.
+[03-58-48] Thread-21 activating.
+[03-58-48] Thread-22 activating.
+[03-58-48] Thread-23 activating.
+[03-58-48] Combining [Thread-21]
+[03-58-48] Combining [Thread-20]
+[03-58-48] Combining [Thread-22]
+[03-58-48] Combining [Thread-23]
+[03-58-48] Finished index: 20
+[03-58-48] Populating threads from: 24
+[03-58-48] Thread-24 activating.
+[03-58-48] Thread-25 activating.
+[03-58-48] Thread-26 activating.
+[03-58-48] Thread-27 activating.
+[03-58-48] Combining [Thread-26]
+[03-58-48] Combining [Thread-25]
+[03-58-48] Combining [Thread-27]
+[03-58-48] Combining [Thread-24]
+[03-58-48] Finished index: 24
+[03-58-48] Populating threads from: 28
+[03-58-48] Thread-28 activating.
+[03-58-48] Thread-29 activating.
+[03-58-48] Thread-30 activating.
+[03-58-48] Thread-31 activating.
+[03-58-48] Combining [Thread-29]
+[03-58-48] Combining [Thread-28]
+[03-58-48] Combining [Thread-31]
+[03-58-48] Combining [Thread-30]
+[03-58-48] Finished index: 28
+[03-58-48] Populating threads from: 32
+[03-58-48] Thread-32 activating.
+[03-58-48] Thread-33 activating.
+[03-58-48] Thread-34 activating.
+[03-58-48] Thread-35 activating.
+[03-58-49] Combining [Thread-32]
+[03-58-49] Combining [Thread-34]
+[03-58-49] Combining [Thread-33]
+[03-58-49] Combining [Thread-35]
+[03-58-49] Finished index: 32
+[03-58-49] Populating threads from: 36
+[03-58-49] Thread-36 activating.
+[03-58-49] Thread-37 activating.
+[03-58-49] Thread-38 activating.
+[03-58-49] Thread-39 activating.
+[03-58-49] Combining [Thread-37]
+[03-58-49] Combining [Thread-38]
+[03-58-49] Combining [Thread-39]
+[03-58-49] Combining [Thread-36]
+[03-58-49] Finished index: 36
+[03-58-49] Populating threads from: 40
+[03-58-49] Thread-40 activating.
+[03-58-49] Thread-41 activating.
+[03-58-49] Thread-42 activating.
+[03-58-49] Thread-43 activating.
+[03-58-49] Combining [Thread-41]
+[03-58-49] Combining [Thread-40]
+[03-58-49] Combining [Thread-42]
+[03-58-49] Combining [Thread-43]
+[03-58-49] Finished index: 40
+[03-58-49] Populating threads from: 44
+[03-58-49] Thread-44 activating.
+[03-58-49] Thread-45 activating.
+[03-58-49] Thread-46 activating.
+[03-58-49] Thread-47 activating.
+[03-58-49] Combining [Thread-44]
+
+[03-58-49] Combining [Thread-47]
+[03-58-49] Combining [Thread-45]
+[03-58-49] Finished index: 44
+[03-58-49] Populating threads from: 48
+[03-58-49] Thread-48 activating.
+[03-58-49] Thread-49 activating.
+[03-58-49] Thread-50 activating.
+[03-58-49] Thread-51 activating.
+[03-58-50] Combining [Thread-48]
+[03-58-50] Combining [Thread-50]
+[03-58-50] Combining [Thread-51]
+[03-58-50] Combining [Thread-49]
+[03-58-50] Finished index: 48
+[03-58-50] Populating threads from: 52
+[03-58-50] Thread-52 activating.
+[03-58-50] Thread-53 activating.
+[03-58-50] Thread-54 activating.
+[03-58-50] Thread-55 activating.
+[03-58-50] Combining [Thread-52]
+[03-58-50] Combining [Thread-54]
+[03-58-50] Combining [Thread-53]
+[03-58-50] Combining [Thread-55]
+[03-58-50] Finished index: 52
+[03-58-50] Populating threads from: 56
+[03-58-50] Thread-56 activating.
+[03-58-50] Thread-57 activating.
+[03-58-50] Thread-58 activating.
+[03-58-50] Thread-59 activating.
+[03-58-50] Combining [Thread-57]
+[03-58-50] Combining [Thread-59]
+[03-58-50] Combining [Thread-56]
+[03-58-50] Combining [Thread-58]
+[03-58-50] Finished index: 56
+[03-58-50] Populating threads from: 60
+[03-58-50] Thread-60 activating.
+[03-58-50] Thread-61 activating.
+[03-58-50] Thread-62 activating.
+[03-58-50] Thread-63 activating.
+[03-58-50] Combining [Thread-60]
+[03-58-50] Combining [Thread-63]
+[03-58-50] Combining [Thread-61]
+[03-58-50] Combining [Thread-62]
+[03-58-50] Finished index: 60
+[03-58-50] Populating threads from: 64
+[03-58-50] Thread-64 activating.
+[03-58-50] Thread-65 activating.
+[03-58-50] Thread-66 activating.
+[03-58-50] Thread-67 activating.
+[03-58-50] Combining [Thread-65]
+[03-58-50] Combining [Thread-64]
+[03-58-50] Combining [Thread-66]
+[03-58-51] Combining [Thread-67]
+[03-58-51] Finished index: 64
+[03-58-51] Populating threads from: 68
+[03-58-51] Thread-68 activating.
+[03-58-51] Thread-69 activating.
+[03-58-51] Thread-70 activating.
+[03-58-51] Thread-71 activating.
+[03-58-51] Combining [Thread-68]
+[03-58-51] Combining [Thread-69]
+[03-58-51] Combining [Thread-70]
+[03-58-51] Combining [Thread-71]
+[03-58-51] Finished index: 68
+[03-58-51] Populating threads from: 72
+[03-58-51] Thread-72 activating.
+[03-58-51] Thread-73 activating.
+[03-58-51] Thread-74 activating.
+[03-58-51] Thread-75 activating.
+[03-58-51] Combining [Thread-72]
+[03-58-51] Combining [Thread-75]
+[03-58-51] Combining [Thread-73]
+[03-58-51] Combining [Thread-74]
+[03-58-51] Finished index: 72
+[03-58-51] Populating threads from: 76
+[03-58-51] Thread-76 activating.
+[03-58-51] Thread-77 activating.
+[03-58-51] Thread-78 activating.
+[03-58-51] Thread-79 activating.
+[03-58-51] Combining [Thread-76]
+[03-58-51] Combining [Thread-78]
+[03-58-51] Combining [Thread-77]
+[03-58-51] Combining [Thread-79]
+[03-58-51] Finished index: 76
+[03-58-51] Populating threads from: 80
+[03-58-51] Thread-80 activating.
+[03-58-51] Thread-81 activating.
+[03-58-51] Thread-82 activating.
+[03-58-51] Thread-83 activating.
+[03-58-51] Combining [Thread-83]
+[03-58-51] Combining [Thread-82]
+[03-58-51] Combining [Thread-80]
+[03-58-51] Combining [Thread-81]
+[03-58-51] Finished index: 80
+[03-58-51] Populating threads from: 84
+[03-58-51] Thread-84 activating.
+[03-58-51] Thread-85 activating.
+[03-58-51] Thread-86 activating.
+[03-58-52] Thread-87 activating.
+[03-58-52] Combining [Thread-84]
+[03-58-52] Combining [Thread-86]
+[03-58-52] Combining [Thread-85]
+[03-58-52] Combining [Thread-87]
+[03-58-52] Finished index: 84
+[03-58-52] Populating threads from: 88
+[03-58-52] Thread-88 activating.
+[03-58-52] Thread-89 activating.
+[03-58-52] Thread-90 activating.
+[03-58-52] Thread-91 activating.
+[03-58-52] Combining [Thread-88]
+[03-58-52] Combining [Thread-90]
+[03-58-52] Combining [Thread-89]
+[03-58-52] Combining [Thread-91]
+[03-58-52] Finished index: 88
+[03-58-52] Populating threads from: 92
+[03-58-52] Thread-92 activating.
+[03-58-52] Thread-93 activating.
+[03-58-52] Thread-94 activating.
+[03-58-52] Thread-95 activating.
+[03-58-52] Combining [Thread-92]
+[03-58-52] Combining [Thread-95]
+[03-58-52] Combining [Thread-94]
+[03-58-52] Combining [Thread-93]
+[03-58-52] Finished index: 92
+[03-58-52] Populating threads from: 96
+[03-58-52] Thread-96 activating.
+[03-58-52] Thread-97 activating.
+[03-58-52] Thread-98 activating.
+[03-58-52] Thread-99 activating.
+[03-58-52] Combining [Thread-97]
+[03-58-52] Listen man, something happened, and it goes something like this:
+Stream closed
+[03-58-52] Combining [Thread-99]
+[03-58-52] Combining [Thread-98]
+[03-58-52] Finished index: 96
+[03-58-52] Populating threads from: 100
+[03-58-52] Thread-100 activating.
+[03-58-52] Thread-101 activating.
+[03-58-52] Thread-102 activating.
+[03-58-52] Thread-103 activating.
+[03-58-53] Combining [Thread-102]
+[03-58-53] Combining [Thread-101]
+[03-58-53] Combining [Thread-100]
+[03-58-53] Combining [Thread-103]
+[03-58-53] Finished index: 100
+[03-58-53] Populating threads from: 104
+[03-58-53] Thread-104 activating.
+[03-58-53] Thread-105 activating.
+[03-58-53] Thread-106 activating.
+[03-58-53] Thread-107 activating.
+[03-58-53] Combining [Thread-105]
+[03-58-53] Combining [Thread-107]
+[03-58-53] Combining [Thread-104]
+[03-58-53] Combining [Thread-106]
+[03-58-53] Finished index: 104
+[03-58-53] Populating threads from: 108
+[03-58-53] Thread-108 activating.
+[03-58-53] Thread-109 activating.
+[03-58-53] Thread-110 activating.
+[03-58-53] Thread-111 activating.
+[03-58-53] Combining [Thread-108]
+[03-58-53] Combining [Thread-109]
+[03-58-53] Combining [Thread-110]
+[03-58-53] Combining [Thread-111]
+[03-58-53] Finished index: 108
+[03-58-53] Populating threads from: 112
+[03-58-53] Thread-112 activating.
+[03-58-53] Thread-113 activating.
+[03-58-53] Thread-114 activating.
+[03-58-53] Thread-115 activating.
+[03-58-53] Combining [Thread-112]
+[03-58-53] Combining [Thread-114]
+[03-58-53] Combining [Thread-113]
+[03-58-53] Combining [Thread-115]
+[03-58-53] Finished index: 112
+[03-58-53] Populating threads from: 116
+[03-58-53] Thread-116 activating.
+[03-58-53] Thread-117 activating.
+[03-58-53] Thread-118 activating.
+[03-58-53] Thread-119 activating.
+[03-58-54] Combining [Thread-116]
+[03-58-54] Combining [Thread-117]
+[03-58-54] Combining [Thread-119]
+[03-58-54] Combining [Thread-118]
+[03-58-54] Finished index: 116
+[03-58-54] Populating threads from: 120
+[03-58-54] Thread-120 activating.
+[03-58-54] Thread-121 activating.
+[03-58-54] Thread-122 activating.
+[03-58-54] Thread-123 activating.
+[03-58-54] Combining [Thread-121]
+[03-58-54] Combining [Thread-120]
+[03-58-54] Combining [Thread-123]
+[03-58-54] Combining [Thread-122]
+[03-58-54] Finished index: 120
+[03-58-54] Populating threads from: 124
+[03-58-54] Thread-124 activating.
+[03-58-54] Thread-125 activating.
+[03-58-54] Thread-126 activating.
+[03-58-54] Thread-127 activating.
+[03-58-54] Combining [Thread-124]
+[03-58-54] Combining [Thread-126]
+[03-58-54] Combining [Thread-125]
+[03-58-54] Combining [Thread-127]
+[03-58-54] Finished index: 124
+[03-58-54] Populating threads from: 128
+[03-58-54] Thread-128 activating.
+[03-58-54] Thread-129 activating.
+[03-58-54] Thread-130 activating.
+[03-58-54] Thread-131 activating.
+[03-58-54] Combining [Thread-131]
+[03-58-54] Combining [Thread-129]
+[03-58-54] Combining [Thread-130]
+[03-58-54] Combining [Thread-128]
+[03-58-54] Finished index: 128
+[03-58-54] Populating threads from: 132
+[03-58-54] Thread-132 activating.
+[03-58-54] Thread-133 activating.
+[03-58-54] Thread-134 activating.
+[03-58-54] Thread-135 activating.
+[03-58-54] Combining [Thread-132]
+[03-58-55] Combining [Thread-133]
+[03-58-55] Combining [Thread-135]
+[03-58-55] Combining [Thread-134]
+[03-58-55] Finished index: 132
+[03-58-55] Populating threads from: 136
+[03-58-55] Thread-136 activating.
+[03-58-55] Thread-137 activating.
+[03-58-55] Thread-138 activating.
+[03-58-55] Thread-139 activating.
+[03-58-55] Combining [Thread-138]
+[03-58-55] Combining [Thread-139]
+[03-58-55] Combining [Thread-136]
+[03-58-55] Combining [Thread-137]
+[03-58-55] Finished index: 136
+[03-58-55] Populating threads from: 140
+[03-58-55] Thread-140 activating.
+[03-58-55] Thread-141 activating.
+[03-58-55] Thread-142 activating.
+[03-58-55] Thread-143 activating.
+[03-58-55] Combining [Thread-141]
+[03-58-55] Combining [Thread-140]
+[03-58-55] Combining [Thread-142]
+[03-58-55] Combining [Thread-143]
+[03-58-55] Finished index: 140
+[03-58-55] Populating threads from: 144
+[03-58-55] Thread-144 activating.
+[03-58-55] Thread-145 activating.
+[03-58-55] Thread-146 activating.
+[03-58-55] Thread-147 activating.
+[03-58-55] Combining [Thread-145]
+[03-58-55] Combining [Thread-146]
+[03-58-55] Combining [Thread-144]
+[03-58-55] Combining [Thread-147]
+[03-58-55] Finished index: 144
+[03-58-55] Populating threads from: 148
+[03-58-55] Thread-148 activating.
+[03-58-55] Thread-149 activating.
+[03-58-55] Thread-150 activating.
+[03-58-55] Thread-151 activating.
+[03-58-55] Combining [Thread-148]
+[03-58-56] Combining [Thread-151]
+[03-58-56] Combining [Thread-150]
+[03-58-56] Combining [Thread-149]
+[03-58-56] Finished index: 148
+[03-58-56] Populating threads from: 152
+[03-58-56] Thread-152 activating.
+[03-58-56] Thread-153 activating.
+[03-58-56] Thread-154 activating.
+[03-58-56] Thread-155 activating.
+[03-58-56] Combining [Thread-152]
+[03-58-56] Combining [Thread-153]
+[03-58-56] Combining [Thread-154]
+[03-58-56] Combining [Thread-155]
+[03-58-56] Finished index: 152
+[03-58-56] Populating threads from: 156
+[03-58-56] Thread-156 activating.
+[03-58-56] Thread-157 activating.
+[03-58-56] Thread-158 activating.
+[03-58-56] Thread-159 activating.
+[03-58-56] Combining [Thread-157]
+[03-58-56] Combining [Thread-156]
+[03-58-56] Combining [Thread-159]
+[03-58-56] Combining [Thread-158]
+[03-58-56] Finished index: 156
+[03-58-56] Populating threads from: 160
+[03-58-56] Thread-160 activating.
+[03-58-56] Thread-161 activating.
+[03-58-56] Thread-162 activating.
+[03-58-56] Thread-163 activating.
+[03-58-56] Combining [Thread-162]
+[03-58-56] Combining [Thread-161]
+[03-58-56] Combining [Thread-160]
+[03-58-56] Combining [Thread-163]
+[03-58-56] Finished index: 160
+[03-58-56] Populating threads from: 164
+[03-58-56] Thread-164 activating.
+[03-58-56] Thread-165 activating.
+[03-58-56] Thread-166 activating.
+[03-58-56] Thread-167 activating.
+[03-58-57] Combining [Thread-165]
+[03-58-57] Combining [Thread-164]
+[03-58-57] Combining [Thread-166]
+[03-58-57] Combining [Thread-167]
+[03-58-57] Finished index: 164
+[03-58-57] Populating threads from: 168
+[03-58-57] Thread-168 activating.
+[03-58-57] Thread-169 activating.
+[03-58-57] Thread-170 activating.
+[03-58-57] Thread-171 activating.
+[03-58-57] Combining [Thread-170]
+[03-58-57] Combining [Thread-169]
+[03-58-57] Combining [Thread-168]
+[03-58-57] Combining [Thread-171]
+[03-58-57] Finished index: 168
+[03-58-57] Populating threads from: 172
+[03-58-57] Thread-172 activating.
+[03-58-57] Thread-173 activating.
+[03-58-57] Thread-174 activating.
+[03-58-57] Thread-175 activating.
+[03-58-57] Combining [Thread-172]
+[03-58-57] Combining [Thread-173]
+[03-58-57] Combining [Thread-174]
+[03-58-57] Combining [Thread-175]
+[03-58-57] Finished index: 172
+[03-58-57] Populating threads from: 176
+[03-58-57] Thread-176 activating.
+[03-58-57] Thread-177 activating.
+[03-58-57] Thread-178 activating.
+[03-58-57] Thread-179 activating.
+[03-58-57] Combining [Thread-176]
+[03-58-57] Combining [Thread-178]
+[03-58-57] Combining [Thread-179]
+[03-58-57] Combining [Thread-177]
+[03-58-57] Finished index: 176
+[03-58-57] Populating threads from: 180
+[03-58-57] Thread-180 activating.
+[03-58-57] Thread-181 activating.
+[03-58-57] Thread-182 activating.
+[03-58-57] Thread-183 activating.
+[03-58-58] Combining [Thread-181]
+[03-58-58] Combining [Thread-183]
+[03-58-58] Combining [Thread-180]
+[03-58-58] Combining [Thread-182]
+[03-58-58] Finished index: 180
+[03-58-58] Populating threads from: 184
+[03-58-58] Thread-184 activating.
+[03-58-58] Thread-185 activating.
+[03-58-58] Thread-186 activating.
+[03-58-58] Thread-187 activating.
+[03-58-58] Combining [Thread-185]
+[03-58-58] Combining [Thread-184]
+[03-58-58] Combining [Thread-186]
+[03-58-58] Combining [Thread-187]
+[03-58-58] Finished index: 184
+[03-58-58] Populating threads from: 188
+[03-58-58] Thread-188 activating.
+[03-58-58] Thread-189 activating.
+[03-58-58] Thread-190 activating.
+[03-58-58] Thread-191 activating.
+[03-58-58] Combining [Thread-189]
+[03-58-58] Combining [Thread-188]
+[03-58-58] Combining [Thread-191]
+[03-58-58] Combining [Thread-190]
+[03-58-58] Finished index: 188
+[03-58-58] Populating threads from: 192
+[03-58-58] Thread-192 activating.
+[03-58-58] Thread-193 activating.
+[03-58-58] Thread-194 activating.
+[03-58-58] Thread-195 activating.
+[03-58-58] Combining [Thread-192]
+[03-58-58] Combining [Thread-193]
+[03-58-58] Combining [Thread-194]
+[03-58-58] Combining [Thread-195]
+[03-58-58] Finished index: 192
+[03-58-58] Populating threads from: 196
+[03-58-58] Thread-196 activating.
+[03-58-58] Thread-197 activating.
+[03-58-58] Thread-198 activating.
+[03-58-58] Thread-199 activating.
+[03-58-59] Combining [Thread-196]
+[03-58-59] Combining [Thread-198]
+[03-58-59] Combining [Thread-197]
+[03-58-59] Combining [Thread-199]
+[03-58-59] Finished index: 196
+[03-58-59] Populating threads from: 200
+[03-58-59] Thread-200 activating.
+[03-58-59] Thread-201 activating.
+[03-58-59] Thread-202 activating.
+[03-58-59] Thread-203 activating.
+[03-58-59] Combining [Thread-200]
+[03-58-59] Combining [Thread-201]
+[03-58-59] Combining [Thread-202]
+[03-58-59] Combining [Thread-203]
+[03-58-59] Finished index: 200
+[03-58-59] Populating threads from: 204
+[03-58-59] Thread-204 activating.
+[03-58-59] Thread-205 activating.
+[03-58-59] Thread-206 activating.
+[03-58-59] Thread-207 activating.
+[03-58-59] Combining [Thread-204]
+[03-58-59] Combining [Thread-205]
+[03-58-59] Combining [Thread-207]
+[03-58-59] Combining [Thread-206]
+[03-58-59] Finished index: 204
+[03-58-59] Populating threads from: 208
+[03-58-59] Thread-208 activating.
+[03-58-59] Thread-209 activating.
+[03-58-59] Thread-210 activating.
+[03-58-59] Thread-211 activating.
+[03-58-59] Combining [Thread-210]
+[03-58-59] Combining [Thread-211]
+[03-58-59] Combining [Thread-208]
+[03-58-59] Combining [Thread-209]
+[03-58-59] Finished index: 208
+[03-58-59] Populating threads from: 212
+[03-58-59] Thread-212 activating.
+[03-58-59] Thread-213 activating.
+[03-58-59] Thread-214 activating.
+[03-58-59] Thread-215 activating.
+[03-58-59] Combining [Thread-213]
+[03-58-59] Combining [Thread-215]
+[03-58-59] Combining [Thread-212]
+[03-58-59] Combining [Thread-214]
+[03-58-59] Finished index: 212
+[03-58-59] Populating threads from: 216
+[03-59-00] Thread-216 activating.
+[03-59-00] Thread-217 activating.
+[03-59-00] Thread-218 activating.
+[03-59-00] Thread-219 activating.
+[03-59-00] Combining [Thread-216]
+[03-59-00] Combining [Thread-217]
+[03-59-00] Combining [Thread-218]
+[03-59-00] Combining [Thread-219]
+[03-59-00] Finished index: 216
+[03-59-00] Populating threads from: 220
+[03-59-00] Thread-220 activating.
+[03-59-00] Thread-221 activating.
+[03-59-00] Thread-222 activating.
+[03-59-00] Thread-223 activating.
+[03-59-00] Combining [Thread-223]
+[03-59-00] Combining [Thread-220]
+[03-59-00] Combining [Thread-222]
+[03-59-00] Combining [Thread-221]
+[03-59-00] Finished index: 220
+[03-59-00] Populating threads from: 224
+[03-59-00] Thread-224 activating.
+[03-59-00] Thread-225 activating.
+[03-59-00] Thread-226 activating.
+[03-59-00] Thread-227 activating.
+[03-59-00] Combining [Thread-227]
+[03-59-00] Combining [Thread-226]
+[03-59-00] Combining [Thread-224]
+[03-59-00] Combining [Thread-225]
+[03-59-00] Finished index: 224
+[03-59-00] Populating threads from: 228
+[03-59-00] Thread-228 activating.
+[03-59-00] Thread-229 activating.
+[03-59-00] Thread-230 activating.
+[03-59-00] Thread-231 activating.
+[03-59-00] Combining [Thread-229]
+[03-59-00] Combining [Thread-228]
+[03-59-00] Combining [Thread-230]
+[03-59-00] Combining [Thread-231]
+[03-59-00] Finished index: 228
+[03-59-00] Populating threads from: 232
+[03-59-00] Thread-232 activating.
+[03-59-00] Thread-233 activating.
+[03-59-00] Thread-234 activating.
+[03-59-00] Thread-235 activating.
+[03-59-01] Combining [Thread-233]
+[03-59-01] Combining [Thread-235]
+[03-59-01] Combining [Thread-234]
+[03-59-01] Combining [Thread-232]
+[03-59-01] Finished index: 232
+[03-59-01] Populating threads from: 236
+[03-59-01] Thread-236 activating.
+[03-59-01] Thread-237 activating.
+[03-59-01] Thread-238 activating.
+[03-59-01] Thread-239 activating.
+[03-59-01] Combining [Thread-239]
+[03-59-01] Combining [Thread-238]
+[03-59-01] Combining [Thread-237]
+[03-59-01] Combining [Thread-236]
+[03-59-01] Finished index: 236
+[03-59-01] Populating threads from: 240
+[03-59-01] Thread-240 activating.
+[03-59-01] Thread-241 activating.
+[03-59-01] Thread-242 activating.
+[03-59-01] Thread-243 activating.
+[03-59-01] Combining [Thread-241]
+[03-59-01] Combining [Thread-240]
+[03-59-01] Combining [Thread-242]
+[03-59-01] Combining [Thread-243]
+[03-59-01] Finished index: 240
+[03-59-01] Populating threads from: 244
+[03-59-01] Thread-244 activating.
+[03-59-01] Thread-245 activating.
+[03-59-01] Thread-246 activating.
+[03-59-01] Thread-247 activating.
+[03-59-01] Combining [Thread-245]
+[03-59-01] Combining [Thread-244]
+[03-59-01] Combining [Thread-246]
+[03-59-01] Combining [Thread-247]
+[03-59-01] Finished index: 244
+[03-59-01] Populating threads from: 248
+[03-59-01] Thread-248 activating.
+[03-59-01] Thread-249 activating.
+[03-59-01] Thread-250 activating.
+[03-59-01] Thread-251 activating.
+[03-59-02] Combining [Thread-250]
+[03-59-02] Combining [Thread-248]
+[03-59-02] Combining [Thread-249]
+[03-59-02] Combining [Thread-251]
+[03-59-02] Finished index: 248
+[03-59-02] Populating threads from: 252
+[03-59-02] Thread-252 activating.
+[03-59-02] Thread-253 activating.
+[03-59-02] Thread-254 activating.
+[03-59-02] Thread-255 activating.
+[03-59-02] Combining [Thread-254]
+[03-59-02] Combining [Thread-252]
+[03-59-02] Combining [Thread-253]
+[03-59-02] Combining [Thread-255]
+[03-59-02] Finished index: 252
+[03-59-02] Populating threads from: 256
+[03-59-02] Thread-256 activating.
+[03-59-02] Thread-257 activating.
+[03-59-02] Thread-258 activating.
+[03-59-02] Thread-259 activating.
+[03-59-02] Combining [Thread-258]
+[03-59-02] Combining [Thread-257]
+[03-59-02] Combining [Thread-256]
+[03-59-02] Combining [Thread-259]
+[03-59-02] Finished index: 256
+[03-59-02] Populating threads from: 260
+[03-59-02] Thread-260 activating.
+[03-59-02] Thread-261 activating.
+[03-59-02] Thread-262 activating.
+[03-59-02] Thread-263 activating.
+[03-59-02] Combining [Thread-260]
+[03-59-02] Combining [Thread-262]
+[03-59-02] Combining [Thread-261]
+[03-59-02] Combining [Thread-263]
+[03-59-02] Finished index: 260
+[03-59-02] Populating threads from: 264
+[03-59-02] Thread-264 activating.
+[03-59-02] Thread-265 activating.
+[03-59-02] Thread-266 activating.
+[03-59-02] Thread-267 activating.
+[03-59-03] Combining [Thread-264]
+[03-59-03] Combining [Thread-265]
+[03-59-03] Combining [Thread-266]
+[03-59-03] Combining [Thread-267]
+[03-59-03] Finished index: 264
+[03-59-03] Populating threads from: 268
+[03-59-03] Thread-268 activating.
+[03-59-03] Thread-269 activating.
+[03-59-03] Thread-270 activating.
+[03-59-03] Thread-271 activating.
+[03-59-03] Combining [Thread-270]
+[03-59-03] Combining [Thread-269]
+[03-59-03] Combining [Thread-271]
+[03-59-03] Combining [Thread-268]
+[03-59-03] Finished index: 268
+[03-59-03] Populating threads from: 272
+[03-59-03] Thread-272 activating.
+[03-59-03] Thread-273 activating.
+[03-59-03] Thread-274 activating.
+[03-59-03] Thread-275 activating.
+[03-59-03] Combining [Thread-272]
+[03-59-03] Combining [Thread-274]
+[03-59-03] Combining [Thread-275]
+[03-59-03] Combining [Thread-273]
+[03-59-03] Finished index: 272
+[03-59-03] Populating threads from: 276
+[03-59-03] Thread-276 activating.
+[03-59-03] Thread-277 activating.
+[03-59-03] Thread-278 activating.
+[03-59-03] Combining [Thread-276]
+[03-59-03] Combining [Thread-277]
+[03-59-03] Thread-279 activating.
+[03-59-04] Combining [Thread-278]
+[03-59-04] Combining [Thread-279]
+[03-59-04] Finished index: 276
+[03-59-04] Populating threads from: 280
+[03-59-04] Thread-280 activating.
+[03-59-04] Thread-281 activating.
+[03-59-04] Thread-282 activating.
+[03-59-04] Thread-283 activating.
+[03-59-04] Combining [Thread-280]
+[03-59-04] Combining [Thread-281]
+[03-59-04] Combining [Thread-282]
+[03-59-04] Combining [Thread-283]
+[03-59-04] Finished index: 280
+[03-59-04] Populating threads from: 284
+[03-59-04] Thread-284 activating.
+[03-59-04] Thread-285 activating.
+[03-59-04] Thread-286 activating.
+[03-59-04] Thread-287 activating.
+[03-59-04] Combining [Thread-284]
+[03-59-04] Combining [Thread-286]
+[03-59-04] Combining [Thread-287]
+[03-59-04] Combining [Thread-285]
+[03-59-04] Finished index: 284
+[03-59-04] Populating threads from: 288
+[03-59-04] Thread-288 activating.
+[03-59-04] Thread-289 activating.
+[03-59-04] Thread-290 activating.
+[03-59-04] Thread-291 activating.
+[03-59-04] Combining [Thread-288]
+[03-59-04] Combining [Thread-289]
+[03-59-04] Combining [Thread-290]
+[03-59-04] Combining [Thread-291]
+[03-59-04] Finished index: 288
+[03-59-04] Populating threads from: 292
+[03-59-04] Thread-292 activating.
+[03-59-04] Thread-293 activating.
+[03-59-05] Thread-294 activating.
+[03-59-05] Thread-295 activating.
+[03-59-05] Combining [Thread-292]
+[03-59-05] Combining [Thread-294]
+[03-59-05] Combining [Thread-293]
+[03-59-05] Combining [Thread-295]
+[03-59-05] Finished index: 292
+[03-59-05] Populating threads from: 296
+[03-59-05] Thread-296 activating.
+[03-59-05] Thread-297 activating.
+[03-59-05] Thread-298 activating.
+[03-59-05] Thread-299 activating.
+[03-59-05] Combining [Thread-296]
+[03-59-05] Combining [Thread-298]
+[03-59-05] Combining [Thread-297]
+[03-59-05] Combining [Thread-299]
+[03-59-05] Finished index: 296
+[03-59-05] Populating threads from: 300
+[03-59-05] Thread-300 activating.
+[03-59-05] Thread-301 activating.
+[03-59-05] Thread-302 activating.
+[03-59-05] Thread-303 activating.
+[03-59-05] Combining [Thread-300]
+[03-59-05] Combining [Thread-301]
+[03-59-05] Combining [Thread-302]
+[03-59-05] Combining [Thread-303]
+[03-59-05] Finished index: 300
+[03-59-05] Populating threads from: 304
+[03-59-05] Thread-304 activating.
+[03-59-05] Thread-305 activating.
+[03-59-05] Thread-306 activating.
+[03-59-05] Thread-307 activating.
+[03-59-05] Combining [Thread-304]
+[03-59-05] Combining [Thread-305]
+[03-59-05] Combining [Thread-307]
+[03-59-05] Combining [Thread-306]
+[03-59-05] Finished index: 304
+[03-59-05] Populating threads from: 308
+[03-59-05] Thread-308 activating.
+[03-59-05] Thread-309 activating.
+[03-59-05] Thread-310 activating.
+[03-59-05] Thread-311 activating.
+[03-59-06] Combining [Thread-308]
+[03-59-06] Combining [Thread-309]
+[03-59-06] Combining [Thread-310]
+[03-59-06] Combining [Thread-311]
+[03-59-06] Finished index: 308
+[03-59-06] Populating threads from: 312
+[03-59-06] Thread-312 activating.
+[03-59-06] Thread-313 activating.
+[03-59-06] Thread-314 activating.
+[03-59-06] Thread-315 activating.
+[03-59-06] Combining [Thread-312]
+[03-59-06] Combining [Thread-314]
+[03-59-06] Combining [Thread-315]
+[03-59-06] Combining [Thread-313]
+[03-59-06] Finished index: 312
+[03-59-06] Populating threads from: 316
+[03-59-06] Thread-316 activating.
+[03-59-06] Thread-317 activating.
+[03-59-06] Thread-318 activating.
+[03-59-06] Thread-319 activating.
+[03-59-06] Combining [Thread-316]
+[03-59-06] Combining [Thread-319]
+[03-59-06] Combining [Thread-317]
+[03-59-06] Combining [Thread-318]
+[03-59-06] Finished index: 316
+[03-59-06] Populating threads from: 320
+[03-59-06] Thread-320 activating.
+[03-59-06] Thread-321 activating.
+[03-59-06] Thread-322 activating.
+[03-59-06] Thread-323 activating.
+[03-59-06] Combining [Thread-320]
+[03-59-06] Combining [Thread-322]
+[03-59-06] Combining [Thread-323]
+[03-59-06] Combining [Thread-321]
+[03-59-06] Finished index: 320
+[03-59-06] Populating threads from: 324
+[03-59-06] Thread-324 activating.
+[03-59-06] Thread-325 activating.
+[03-59-06] Thread-326 activating.
+[03-59-06] Thread-327 activating.
+[03-59-07] Combining [Thread-324]
+[03-59-07] Combining [Thread-327]
+[03-59-07] Combining [Thread-326]
+[03-59-07] Combining [Thread-325]
+[03-59-07] Finished index: 324
+[03-59-07] Populating threads from: 328
+[03-59-07] Thread-328 activating.
+[03-59-07] Thread-329 activating.
+[03-59-07] Thread-330 activating.
+[03-59-07] Thread-331 activating.
+[03-59-07] Combining [Thread-328]
+[03-59-07] Combining [Thread-330]
+[03-59-07] Combining [Thread-329]
+[03-59-07] Combining [Thread-331]
+[03-59-07] Finished index: 328
+[03-59-07] Populating threads from: 332
+[03-59-07] Thread-332 activating.
+[03-59-07] Thread-333 activating.
+[03-59-07] Thread-334 activating.
+[03-59-07] Thread-335 activating.
+[03-59-07] Combining [Thread-333]
+[03-59-07] Combining [Thread-334]
+[03-59-07] Combining [Thread-335]
+[03-59-07] Combining [Thread-332]
+[03-59-07] Finished index: 332
+[03-59-07] Populating threads from: 336
+[03-59-07] Thread-336 activating.
+[03-59-07] Thread-337 activating.
+[03-59-07] Thread-338 activating.
+[03-59-07] Thread-339 activating.
+[03-59-07] Combining [Thread-339]
+[03-59-07] Combining [Thread-337]
+[03-59-07] Combining [Thread-336]
+[03-59-07] Combining [Thread-338]
+[03-59-07] Finished index: 336
+[03-59-07] Populating threads from: 340
+[03-59-07] Thread-340 activating.
+[03-59-07] Thread-341 activating.
+[03-59-07] Thread-342 activating.
+[03-59-07] Thread-343 activating.
+[03-59-08] Combining [Thread-340]
+[03-59-08] Combining [Thread-343]
+[03-59-08] Combining [Thread-341]
+[03-59-08] Combining [Thread-342]
+[03-59-08] Finished index: 340
+[03-59-08] Populating threads from: 344
+[03-59-08] Thread-344 activating.
+[03-59-08] Thread-345 activating.
+[03-59-08] Thread-346 activating.
+[03-59-08] Thread-347 activating.
+[03-59-08] Combining [Thread-345]
+[03-59-08] Combining [Thread-346]
+[03-59-08] Combining [Thread-344]
+[03-59-08] Combining [Thread-347]
+[03-59-08] Finished index: 344
+[03-59-08] Populating threads from: 348
+[03-59-08] Thread-348 activating.
+[03-59-08] Thread-349 activating.
+[03-59-08] Thread-350 activating.
+[03-59-08] Thread-351 activating.
+[03-59-08] Combining [Thread-349]
+[03-59-08] Combining [Thread-348]
+[03-59-08] Combining [Thread-351]
+[03-59-08] Combining [Thread-350]
+[03-59-08] Finished index: 348
+[03-59-08] Populating threads from: 352
+[03-59-08] Thread-352 activating.
+[03-59-08] Thread-353 activating.
+[03-59-08] Thread-354 activating.
+[03-59-08] Thread-355 activating.
+[03-59-08] Combining [Thread-354]
+[03-59-08] Combining [Thread-355]
+[03-59-08] Combining [Thread-352]
+[03-59-08] Combining [Thread-353]
+[03-59-08] Finished index: 352
+[03-59-08] Populating threads from: 356
+[03-59-08] Thread-356 activating.
+[03-59-08] Thread-357 activating.
+[03-59-08] Thread-358 activating.
+[03-59-08] Thread-359 activating.
+[03-59-08] Combining [Thread-357]
+[03-59-08] Combining [Thread-356]
+[03-59-08] Combining [Thread-358]
+[03-59-08] Combining [Thread-359]
+[03-59-08] Finished index: 356
+[03-59-08] Populating threads from: 360
+[03-59-08] Thread-360 activating.
+[03-59-09] Thread-361 activating.
+[03-59-09] Thread-362 activating.
+[03-59-09] Thread-363 activating.
+
+
+[03-59-09] Listen man, something happened, and it goes something like this:
+Stream closed
+[03-59-09] Listen man, something happened, and it goes something like this:
+Stream closed
+[03-59-09] Finished index: 360
+[03-59-09] Populating threads from: 364
+[03-59-09] Thread-364 activating.
+[03-59-09] Thread-365 activating.
+[03-59-09] Thread-366 activating.
+[03-59-09] Thread-367 activating.
+[03-59-09] Combining [Thread-364]
+[03-59-09] Combining [Thread-366]
+[03-59-09] Combining [Thread-367]
+[03-59-09] Combining [Thread-365]
+[03-59-09] Finished index: 364
+[03-59-09] Populating threads from: 368
+[03-59-09] Thread-368 activating.
+[03-59-09] Thread-369 activating.
+[03-59-09] Thread-370 activating.
+[03-59-09] Thread-371 activating.
+[03-59-09] Combining [Thread-369]
+[03-59-09] Combining [Thread-368]
+[03-59-09] Combining [Thread-370]
+[03-59-09] Combining [Thread-371]
+[03-59-09] Finished index: 368
+[03-59-09] Populating threads from: 372
+[03-59-09] Thread-372 activating.
+[03-59-09] Thread-373 activating.
+[03-59-09] Thread-374 activating.
+[03-59-09] Thread-375 activating.
+[03-59-09] Combining [Thread-373]
+[03-59-09] Combining [Thread-372]
+[03-59-09] Combining [Thread-374]
+[03-59-09] Combining [Thread-375]
+[03-59-09] Finished index: 372
+[03-59-09] Populating threads from: 376
+[03-59-09] Thread-376 activating.
+[03-59-09] Thread-377 activating.
+[03-59-09] Thread-378 activating.
+[03-59-09] Thread-379 activating.
+[03-59-10] Combining [Thread-377]
+[03-59-10] Combining [Thread-379]
+[03-59-10] Combining [Thread-376]
+[03-59-10] Combining [Thread-378]
+[03-59-10] Finished index: 376
+[03-59-10] Populating threads from: 380
+[03-59-10] Thread-380 activating.
+[03-59-10] Thread-381 activating.
+[03-59-10] Thread-382 activating.
+[03-59-10] Thread-383 activating.
+[03-59-10] Combining [Thread-381]
+[03-59-10] Combining [Thread-383]
+[03-59-10] Combining [Thread-382]
+[03-59-10] Combining [Thread-380]
+[03-59-10] Finished index: 380
+[03-59-10] Populating threads from: 384
+[03-59-10] Thread-384 activating.
+[03-59-10] Thread-385 activating.
+[03-59-10] Thread-386 activating.
+[03-59-10] Thread-387 activating.
+[03-59-10] Combining [Thread-384]
+[03-59-10] Combining [Thread-385]
+[03-59-10] Combining [Thread-387]
+[03-59-10] Combining [Thread-386]
+[03-59-10] Finished index: 384
+[03-59-10] Populating threads from: 388
+[03-59-10] Thread-388 activating.
+[03-59-10] Thread-389 activating.
+[03-59-10] Thread-390 activating.
+[03-59-10] Thread-391 activating.
+[03-59-10] Combining [Thread-388]
+[03-59-10] Combining [Thread-391]
+[03-59-10] Combining [Thread-389]
+[03-59-10] Combining [Thread-390]
+[03-59-10] Finished index: 388
+[03-59-10] Populating threads from: 392
+[03-59-10] Thread-392 activating.
+[03-59-10] Thread-393 activating.
+[03-59-10] Thread-394 activating.
+[03-59-10] Thread-395 activating.
+[03-59-11] Combining [Thread-393]
+[03-59-11] Combining [Thread-395]
+[03-59-11] Combining [Thread-394]
+[03-59-11] Combining [Thread-392]
+[03-59-11] Finished index: 392
+[03-59-11] Populating threads from: 396
+[03-59-11] Thread-396 activating.
+[03-59-11] Thread-397 activating.
+[03-59-11] Thread-398 activating.
+[03-59-11] Thread-399 activating.
+[03-59-11] Combining [Thread-396]
+[03-59-11] Combining [Thread-397]
+[03-59-11] Combining [Thread-399]
+[03-59-11] Combining [Thread-398]
+[03-59-11] Finished index: 396
+[03-59-11] Populating threads from: 400
+[03-59-11] Thread-400 activating.
+[03-59-11] Thread-401 activating.
+[03-59-11] Thread-402 activating.
+[03-59-11] Thread-403 activating.
+[03-59-11] Combining [Thread-400]
+[03-59-11] Combining [Thread-402]
+[03-59-11] Combining [Thread-401]
+[03-59-11] Combining [Thread-403]
+[03-59-11] Finished index: 400
+[03-59-11] Populating threads from: 404
+[03-59-11] Thread-404 activating.
+[03-59-11] Thread-405 activating.
+[03-59-11] Thread-406 activating.
+[03-59-11] Thread-407 activating.
+[03-59-11] Combining [Thread-407]
+[03-59-11] Combining [Thread-405]
+[03-59-11] Combining [Thread-404]
+[03-59-11] Combining [Thread-406]
+[03-59-11] Finished index: 404
+[03-59-11] Populating threads from: 408
+[03-59-11] Thread-408 activating.
+[03-59-11] Thread-409 activating.
+[03-59-11] Thread-410 activating.
+[03-59-11] Thread-411 activating.
+[03-59-12] Combining [Thread-410]
+[03-59-12] Combining [Thread-409]
+[03-59-12] Combining [Thread-408]
+[03-59-12] Combining [Thread-411]
+[03-59-12] Finished index: 408
+[03-59-12] Populating threads from: 412
+[03-59-12] Thread-412 activating.
+[03-59-12] Thread-413 activating.
+[03-59-12] Thread-414 activating.
+[03-59-12] Thread-415 activating.
+[03-59-12] Combining [Thread-412]
+[03-59-12] Combining [Thread-413]
+[03-59-12] Combining [Thread-415]
+[03-59-12] Combining [Thread-414]
+[03-59-12] Finished index: 412
+[03-59-12] Populating threads from: 416
+[03-59-12] Thread-416 activating.
+[03-59-12] Thread-417 activating.
+[03-59-12] Thread-418 activating.
+[03-59-12] Thread-419 activating.
+[03-59-12] Combining [Thread-417]
+[03-59-12] Combining [Thread-418]
+[03-59-12] Combining [Thread-416]
+[03-59-12] Combining [Thread-419]
+[03-59-12] Finished index: 416
+[03-59-12] Populating threads from: 420
+[03-59-12] Thread-420 activating.
+[03-59-12] Thread-421 activating.
+[03-59-12] Thread-422 activating.
+[03-59-12] Thread-423 activating.
+[03-59-12] Combining [Thread-421]
+[03-59-12] Combining [Thread-420]
+[03-59-12] Combining [Thread-423]
+[03-59-12] Combining [Thread-422]
+[03-59-12] Finished index: 420
+[03-59-12] Populating threads from: 424
+[03-59-12] Thread-424 activating.
+[03-59-12] Thread-425 activating.
+[03-59-12] Thread-426 activating.
+[03-59-12] Thread-427 activating.
+[03-59-13] Combining [Thread-425]
+[03-59-13] Combining [Thread-424]
+[03-59-13] Combining [Thread-426]
+[03-59-13] Combining [Thread-427]
+[03-59-13] Finished index: 424
+[03-59-13] Populating threads from: 428
+[03-59-13] Thread-428 activating.
+[03-59-13] Thread-429 activating.
+[03-59-13] Thread-430 activating.
+[03-59-13] Thread-431 activating.
+[03-59-13] Combining [Thread-429]
+[03-59-13] Combining [Thread-428]
+[03-59-13] Combining [Thread-431]
+[03-59-13] Combining [Thread-430]
+[03-59-13] Finished index: 428
+[03-59-13] Populating threads from: 432
+[03-59-13] Thread-432 activating.
+[03-59-13] Thread-433 activating.
+[03-59-13] Thread-434 activating.
+[03-59-13] Thread-435 activating.
+[03-59-13] Combining [Thread-432]
+[03-59-13] Combining [Thread-433]
+[03-59-13] Combining [Thread-435]
+[03-59-13] Combining [Thread-434]
+[03-59-13] Finished index: 432
+[03-59-13] Populating threads from: 436
+[03-59-13] Thread-436 activating.
+[03-59-13] Thread-437 activating.
+[03-59-13] Thread-438 activating.
+[03-59-13] Thread-439 activating.
+[03-59-13] Combining [Thread-437]
+[03-59-13] Combining [Thread-436]
+[03-59-13] Combining [Thread-439]
+[03-59-13] Combining [Thread-438]
+[03-59-13] Finished index: 436
+[03-59-13] Populating threads from: 440
+[03-59-13] Thread-440 activating.
+[03-59-13] Thread-441 activating.
+[03-59-13] Thread-442 activating.
+[03-59-13] Thread-443 activating.
+[03-59-14] Combining [Thread-443]
+[03-59-14] Combining [Thread-442]
+[03-59-14] Combining [Thread-441]
+[03-59-14] Combining [Thread-440]
+[03-59-14] Finished index: 440
+[03-59-14] Populating threads from: 444
+[03-59-14] Thread-444 activating.
+[03-59-14] Thread-445 activating.
+[03-59-14] Thread-446 activating.
+[03-59-14] Thread-447 activating.
+[03-59-14] Combining [Thread-444]
+[03-59-14] Combining [Thread-446]
+[03-59-14] Combining [Thread-447]
+[03-59-14] Combining [Thread-445]
+[03-59-14] Finished index: 444
+[03-59-14] Populating threads from: 448
+[03-59-14] Thread-448 activating.
+[03-59-14] Thread-449 activating.
+[03-59-14] Thread-450 activating.
+[03-59-14] Thread-451 activating.
+[03-59-14] Combining [Thread-448]
+[03-59-14] Combining [Thread-449]
+[03-59-14] Combining [Thread-451]
+[03-59-14] Combining [Thread-450]
+[03-59-14] Finished index: 448
+[03-59-14] Populating threads from: 452
+[03-59-14] Thread-452 activating.
+[03-59-14] Thread-453 activating.
+[03-59-14] Thread-454 activating.
+[03-59-14] Thread-455 activating.
+[03-59-14] Combining [Thread-452]
+[03-59-14] Combining [Thread-455]
+[03-59-14] Combining [Thread-453]
+[03-59-14] Combining [Thread-454]
+[03-59-14] Finished index: 452
+[03-59-14] Populating threads from: 456
+[03-59-14] Thread-456 activating.
+[03-59-14] Thread-457 activating.
+[03-59-14] Thread-458 activating.
+[03-59-14] Thread-459 activating.
+[03-59-14] Combining [Thread-456]
+[03-59-14] Combining [Thread-457]
+[03-59-14] Combining [Thread-458]
+[03-59-14] Combining [Thread-459]
+[03-59-14] Finished index: 456
+[03-59-14] Populating threads from: 460
+[03-59-14] Thread-460 activating.
+[03-59-14] Thread-461 activating.
+[03-59-15] Thread-462 activating.
+[03-59-15] Thread-463 activating.
+[03-59-15] Combining [Thread-462]
+[03-59-15] Combining [Thread-460]
+[03-59-15] Combining [Thread-463]
+[03-59-15] Combining [Thread-461]
+[03-59-15] Finished index: 460
+[03-59-15] Populating threads from: 464
+[03-59-15] Thread-464 activating.
+[03-59-15] Thread-465 activating.
+[03-59-15] Thread-466 activating.
+[03-59-15] Thread-467 activating.
+[03-59-15] Combining [Thread-467]
+[03-59-15] Combining [Thread-464]
+[03-59-15] Combining [Thread-465]
+[03-59-15] Combining [Thread-466]
+[03-59-15] Finished index: 464
+[03-59-15] Populating threads from: 468
+[03-59-15] Thread-468 activating.
+[03-59-15] Thread-469 activating.
+[03-59-15] Thread-470 activating.
+[03-59-15] Thread-471 activating.
+[03-59-15] Combining [Thread-468]
+[03-59-15] Combining [Thread-470]
+[03-59-15] Combining [Thread-471]
+[03-59-15] Combining [Thread-469]
+[03-59-15] Finished index: 468
+[03-59-15] Populating threads from: 472
+[03-59-15] Thread-472 activating.
+[03-59-15] Thread-473 activating.
+[03-59-15] Thread-474 activating.
+[03-59-15] Thread-475 activating.
+[03-59-15] Combining [Thread-472]
+[03-59-15] Combining [Thread-475]
+[03-59-15] Combining [Thread-473]
+[03-59-15] Combining [Thread-474]
+[03-59-15] Finished index: 472
+[03-59-15] Populating threads from: 476
+[03-59-15] Thread-476 activating.
+[03-59-15] Thread-477 activating.
+[03-59-15] Thread-478 activating.
+[03-59-15] Thread-479 activating.
+[03-59-16] Combining [Thread-476]
+[03-59-16] Combining [Thread-477]
+[03-59-16] Combining [Thread-479]
+[03-59-16] Combining [Thread-478]
+[03-59-16] Finished index: 476
+[03-59-16] Populating threads from: 480
+[03-59-16] Thread-480 activating.
+[03-59-16] Thread-481 activating.
+[03-59-16] Thread-482 activating.
+[03-59-16] Thread-483 activating.
+[03-59-16] Combining [Thread-481]
+[03-59-16] Combining [Thread-482]
+[03-59-16] Combining [Thread-480]
+[03-59-16] Combining [Thread-483]
+[03-59-16] Finished index: 480
+[03-59-16] Populating threads from: 484
+[03-59-16] Thread-484 activating.
+[03-59-16] Thread-485 activating.
+[03-59-16] Thread-486 activating.
+[03-59-16] Thread-487 activating.
+[03-59-16] Combining [Thread-485]
+[03-59-16] Combining [Thread-487]
+[03-59-16] Combining [Thread-484]
+[03-59-16] Listen man, something happened, and it goes something like this:
+Stream closed
+[03-59-16] Finished index: 484
+[03-59-16] Populating threads from: 488
+[03-59-16] Thread-488 activating.
+[03-59-16] Thread-489 activating.
+[03-59-16] Thread-490 activating.
+[03-59-16] Thread-491 activating.
+[03-59-16] Combining [Thread-488]
+[03-59-16] Combining [Thread-489]
+[03-59-16] Combining [Thread-490]
+[03-59-16] Combining [Thread-491]
+[03-59-16] Finished index: 488
+[03-59-16] Populating threads from: 492
+[03-59-16] Thread-492 activating.
+[03-59-16] Thread-493 activating.
+[03-59-16] Thread-494 activating.
+[03-59-16] Thread-495 activating.
+[03-59-17] Combining [Thread-492]
+[03-59-17] Combining [Thread-493]
+[03-59-17] Combining [Thread-494]
+[03-59-17] Combining [Thread-495]
+[03-59-17] Finished index: 492
+[03-59-17] Populating threads from: 496
+[03-59-17] Thread-496 activating.
+[03-59-17] Thread-497 activating.
+[03-59-17] Thread-498 activating.
+[03-59-17] Thread-499 activating.
+[03-59-17] Combining [Thread-497]
+[03-59-17] Combining [Thread-496]
+[03-59-17] Combining [Thread-499]
+[03-59-17] Listen man, something happened, and it goes something like this:
+Stream closed
+[03-59-17] Finished index: 496
+[03-59-17] Threads have finished! Happy day! You can consolidate lists now!
+[03-59-17] Finished matching motifs with: 30727ms taken.
+
+[03-59-17] Consolidating Lists...
+[04-09-36] Printing to file... This will take awhile.
+[04-09-39] Printed to file: OUTPUT--05-07-2019--03-58-46.txt
+
+[04-09-39] Time taken unsorted: 622422ms.
+
+[04-09-39] Finished everything.
+Total time taken: 15 seconds.

@@ -87,6 +87,27 @@ public class CP {
 		return true;
 	}
 	
+	public static boolean printToFile(String str, String location, BufferedWriter writer) {
+		try {
+			file = new File(location);
+			if (!file.exists())
+				if (file.createNewFile()) {
+					println("Created file that wasn't there.", MotifLauncher.logFileLocation);
+				}
+		    writer.append(str);
+		    writer.newLine();
+		} catch (FileNotFoundException n) {
+			println("Ok, somehow the file was not created. Talk to your system administrator even though "+
+					"it's not their fault.", MotifLauncher.logFileLocation);
+		}
+		catch (Exception e) {
+			println("Listen man, something happened, and it goes something like this:\n" +
+					e.getMessage(), MotifLauncher.logFileLocation);
+			return false;
+		}
+		return true;
+	}
+	
 	/**<strong>printToFile()</strong>
 	 * <p>This method is used to append directly to a file.</p>
 	 * @param str to print to file.

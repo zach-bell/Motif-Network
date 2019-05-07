@@ -129,15 +129,18 @@ public class MotifThreadHandler {
 		for (MotifThread mt : threadList) {
 			size += mt.getCompiledList().length;
 		}
+		CP.println("List size: " + size, MotifLauncher.logFileLocation);
 		MotifStruct[] sender = new MotifStruct[size];
 		int index = 0;
 		for (int i = 0; i < threadList.length; i++) {
-			for (int j = 0; j < threadList[i].getCompiledList().length; j++) {
-				sender[index] = threadList[i].getCompiledList()[j];
+			MotifStruct[] temp = threadList[i].getCompiledList();
+			for (int j = 0; j < temp.length; j++) {
+				sender[index] = temp[j];
 				sender[index].setGlobalIndex(index);
 				index ++;
 			}
 		}
+		CP.println("Final combine, this will take awhile...", MotifLauncher.logFileLocation);
 		return combiner.combineLikeMotifs(sender);
 	}
 }

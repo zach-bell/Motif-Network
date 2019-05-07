@@ -18,7 +18,7 @@ public class MotifLauncher {
 	public static final int MOTIF_LENGTH = 8;
 	
 	// File to check. This is the input.
-	public static String FILE_IN = "promoters_data_clean.txt";
+	public static String FILE_IN = "promoters_data_clean_extended.txt";
 	
 	// File to print output of results.
 	public static String FILE_OUT = "OUTPUT--";
@@ -112,17 +112,7 @@ public class MotifLauncher {
 		CP.println("Time taken unsorted: " + timerSmall.stopTimeM() + "ms.\n", logFileLocation);
 		timeSum += timerSmall.timeTaken;
 		
-		// Sorted output
-		timerSmall.startTimingM();// Start timer
-		MotifStruct[] sorted = worstSort(unsorted);			// The sorting algorithm is broken at the moment.
-		if (mfh.toFile(sorted, "sorted-" + FILE_OUT)) {
-			CP.println("Printed to file: " + FILE_OUT + "\n", logFileLocation);
-		} else {
-			CP.println("File output printing process INCOMPLETE. Please run again.\n\n", logFileLocation);
-		}
-		
 		// Clean up with console prints
-		CP.println("Time taken sorted: " + timerSmall.stopTimeM() + "ms.\n", logFileLocation);
 		timeSum += timerSmall.timeTaken;
 		CP.println("Finished everything.\nTotal time taken: " + ((timeSum / 1000) % 60) + " seconds.", logFileLocation);
 	}
